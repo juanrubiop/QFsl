@@ -1,0 +1,20 @@
+\chapter{On Bias} \label{app:bias}
+
+The widespread use of NLP in decision-making that can impact a person's life necessitates a deeper look into the inner workings of the models that are being used. To give an example, it was revealed in 2018 that Amazon had used an AI tool to help parse CVs for software development roles, and it had learned through its biased training to discriminate against women \cite{dastin_insight_2018}.
+
+This becomes even more present with the rise of tools like ChatGPT and other LLMs that for the unaware public, might look like some sort of AGI instead of stochastic parrots \cite{bender_dangers_2021}. LLM tools, such as ChatGPT and LLAMA, exhibit discrimination that passes from the qualitative into a measurable bias against certain vulnerable groups in practical cases such as salary or price negotiation and skills assessment \cite{haim_whats_2024}.
+
+Bias in NLP has been broadly studied \cite{lalor_benchmarking_2022,hutchinson_social_2020,garrido-munoz_survey_2021,sun_mitigating_2019},
+and it can be categorised to come from five different sources \cite{hovy_five_2021}: the data, the annotation process, input representations, the model, and the research design.
+
+Data could be the first thought of many when looking for biases in NLP, as humans are biased and most training is done with organic human data \cite{zhu_aligning_2015}. As human activity is biased, the models that employ them also become biased, as happened in the case of Amazon. Bias will disproportionately favour men, as many of its sources reflect that \cite{garimella_womens_2019}. The models reflect this disparity and can affect those underrepresented in the data \cite{hovy_demographic_2015}. Mitigation techniques usually require heavy input from a human to make sure the data is either augmented to make it more balanced \cite{webster_mind_2018} or taking out the identifying aspects of the dataset, such as gendered pronouns and names \cite{zhao_gender_2018}.
+
+Label bias comes from the bias within annotators, which can unconsciously impart their societal norms on data which might not be so clearly cut labelled \cite{sap_risk_2019}. This can be mitigated by using multiple annotators \cite{hovy_learning_2013} and also using disagreement between annotators as part of the training process \cite{fornaciari_beyond_2021}.
+
+Input representation harks back to section \ref{sec:embeddings}, where different words whose meanings are associated appear close together, so the biases manifest themselves through the proximity of words such as man and homemaker, and man and programmer \cite{bolukbasi_man_2016}. Debiasing usually relies on manually debiasing the embeddings themselves.
+
+Model bias exists through the exact quality of the training of models, that is, models have a goal of minimising the cost function and they will do that, even if that represents exploiting statistical structures in the data that will result in bias. Countermeasures rely essentially upon having a set of metrics with which to train a model and being flexible enough to discard those that impart a bias on the model \cite{hovy_five_2021}, or even divorcing from the ideal of hard numerical metrics \cite{ribeiro_beyond_2020}.
+
+Finally, design bias is an expression of the overwhelming amount of data in English, that limits the exposure of models to other languages and the cultural ideas expressed through them.
+
+Bias is a problem in human societies and, as models are usually a reflection of them, it becomes present when applying any model to any task. Any solution will not be definitive, and will not be a panacea that can just be left to operate on itself. Debiasing models require researchers to take an active role and question what might be hidden behind their choices and the data they rely on.

@@ -1,0 +1,46 @@
+\chapter{Conclussion, Discussion, and Further Work}\label{chap:conclusion}
+\section{Conclusion}
+After proposing a framework for applying Few Shot Learning to Quantum Natural Language Processing and testing it in various scenarios to learn about its behaviour, there are a few things we can ascertain.
+
+First of all, we proposed two different types of PQE within the framework outlined that served two purposes: FSL Base tested a low classical cost implementation of FSL that seeks to minimally preserve some structure; FSL NN, on the other hand, seeks to establish a PQE that could improve the accuracy of the model with OOV words by relying more on the classical system.
+
+Testing both of these PQEs we found out that this model of FSL exhibits faster convergence than traditional models albeit at a cost in accuracy. We also found out that the type of PQE chosen impacts the performance of the model for OOV words.
+
+FSL NN has a higher classical computational cost than any of the other parametrisations, as a neural network has to be trained, but it does save in quantum computation time, which is the resource we are limited in and which we want to use less of.
+
+Furthermore, this framework is extremely versatile, as we designed it to be extremely modular and adaptable to the characteristics of both the classical and quantum systems available. And, indeed, the testing done in this work implies that different versions of this framework can work for different use cases. As mentioned in the previous chapter, FSL NN is best suited for when OOV words are preferred, and FSL Base excels in fast convergence with minimal accuracy loss for sufficiently big training circuits. FSL Base also excels in the context where the unique word set has a large cardinality, but the set of valid sentences is not comparatively big, which traditional \mya would struggle.
+
+As what happens with \mya usage, the optimal FSL PQE does not work with all implementations, a previous analysis of the situation is needed to first gauge what form of PQE would work best, what is the user willing to sacrifice to obtain the most of the quantum system, and what quantum resource is more scarce (e.g. the set of gates available, the amount of runs, the qubit connectivity, entanglement, etc.).
+
+What underlies this method is also what grants its flexibility, the deterministic mapping between the classical embedding and the quantum parameters. This is not set concretely and the only tenant is the preservation of some structure that connects the word space structure with the task at hand. This also includes the choosing of the classical embeddings, as they are constructed to represent some type of structure between the words. Since DisCoCat has a heavy meaning component, the preservation of meaning through the inner product was the structure chosen in this work, but many others could be implemented.
+
+Regardless, we showed that an FSL scheme can work to save quantum resources and further extract more power from quantum systems in the NISQ era.
+
+\section{Discussion}
+
+As it usually happens with works of the quantum type, this work was limited by the resources available. The task, dataset, and \mya chosen to test FSL had to be chosen in the context of maximising the resource allocation available to us. The training for a single model ran for about a week, not including the troubleshooting time. So even though higher circuit sizes are usually used in the literature, we had to restrict our testing space to smaller systems.
+
+Since we try to leverage the vast amount of information already existing in classical NLP, the classical embeddings also play an important role, as the quality of the parameters obtained from the deterministic mapping from classical to quantum depends on the quality of the classical embeddings. Thus, the results are heavily influenced by the chosen embeddings and the manipulation of these vectors through the training process.
+
+This framework is designed to work specifically with DisCoCat, other methods for QNLP could make use of the principles outlined in this work, but it would not be a one-to-one mapping and it is not something studied here.
+
+This framework was also studied for the MC task. Many more tasks exist and could benefit from FSL, but due to the scope of this work being limited to the design and limited testing of the method, it is something that we leave to future work. However, within the framework of DisCoCat, adapting this to other tasks and sentence spaces of other sizes is straightforward and does not require work different from that done for the MC task.
+
+Finally, since FSL involves a separate layer distinct from the one traditionally trained, an increased gate cost exists compared to traditional ans{\"a}tze. This cost needs to be taken into account if we want to implement this framework as part of the evaluation of resources needed to design an FSL PQE.
+
+\section{Further Work}
+As this work is the first proposal of this framework, more testing would need to be done on it. First, with higher computational resources, bigger circuit sizes and bigger datasets need to be tested how the generalisation ability present in classical FSL manifests itself in the quantum case. 
+
+Other tasks need to be tested, including but not limited to  Pronoun Resolution, Paraphrasing, and Classifying to more than two labels. 
+
+Testing also needs to be done to see the effect different PQE, different classical embeddings, and different mappings have on the performance of the model, both in terms of its convergence and its OOV performance. Classical embeddings in which different pregroup types correspond to different tensor ranks can also be studied.
+
+Finally, even though AAE is not something paramount to our implementation of FSL, after reviewing the literature it does seem to be also a viable alternative to reduce quantum costs and should be researched. As of the time of writing, AAE has not been used in QNLP tasks.
+
+\section{Final Thoughts}
+
+We strove to design a framework for implementing FSL on quantum circuits based on the vast corpus of information that already exists on classical word embeddings. This method is flexible and was shown to work and, in certain cases, provide certain advantages compared to the traditional methodology. Even though further testing is necessary to see where and how this framework excels, we are confident in its ability to help further the uses of quantum systems in an era that, by its very nature, begs for some way to extract a lot from a few.
+
+Working in the NISQ era is a burden for everybody, those who want to design algorithms and see them come to fruition, those who design and build the very quantum systems limited by the noisy and unpredictable nature of quantum theory in the non-quantum macroscopic world, those who try to develop useful ways to use NISQ systems to show that the quantum revolution is here and is just going to get better.
+
+We hope that this work helps further the world of quantum systems and helps improve the way we conceive and use quantum devices. And we hope to one day see a world where NISQ is talked about like we talk about those computers who used to occupy large rooms and made so much noise it felt as if it were alive. NISQ is not only marked by noise and problems but also by hope the universe gives us one more gift.

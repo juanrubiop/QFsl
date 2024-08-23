@@ -1,0 +1,13 @@
+\begin{figure}[H]
+    \centering
+    \caption{Base PQE}
+    \begin{quantikz}
+        \ket{0} & \gate{R_x(\theta_x)} &\gate{R_y(\theta_y)} &\gate{R_z(\theta_z)} &\gate[6]{W layer}&\\
+        \ket{0} & \gate{R_x(\theta_x)}&\gate{R_y(\theta_y)} &\gate{R_z(\theta_z)} &&\\
+        \ket{0} & \gate{R_x(\theta_x)}&\gate{R_y(\theta_y)} &\gate{R_z(\theta_z)} &&\\
+        \myvdots \\
+        \ket{0}&\gate{R_x(\theta_x)}&\gate{R_y(\theta_y)} &\gate{R_z(\theta_z)} &&\\
+        \ket{0} &\gate{R_x(\theta_x)}& \gate{R_y(\theta_y)} & \gate{R_z(\theta_z)} & &    
+    \end{quantikz}
+    \label{circ:naive}
+\end{figure}

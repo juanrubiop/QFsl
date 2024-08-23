@@ -1,0 +1,21 @@
+\begin{figure}
+    \centering
+    \caption{IQP Ansatz}
+    \label{circ:IQP}
+    \begin{adjustbox}{width=\textwidth}
+    \begin{quantikz}
+    \ket{0} & \gate{H}\gategroup[6,steps=5,style={dashed,rounded
+        corners,fill=blue!20, inner
+        xsep=2pt},background,label style={label
+        position=below,anchor=north,yshift=-0.2cm}]{{Base layer}}&\ctrl{1}&&&\gate{H}\gategroup[6,steps=5,style={dashed,rounded
+        corners,fill=red!20, inner
+        xsep=2pt},background,label style={label
+        position=below,anchor=north,yshift=-0.2cm}]{{Additional Layers}}&\ctrl{1}&&&\cdots\\
+    \ket{0} & \gate{H}&\gate{R_Z(\theta_0)} &                               \ctrl{1} & & \gate{H} & \gate{R_Z(\theta_i)} & \ctrl{1} &&          \cdots\\
+    \ket{0} & \gate{H}&&\gate{R_Z(\theta_1)} & & \gate{H} & &                \gate{R_Z(\theta_j)}& &\cdots\\
+    \myvdots  \\
+    \ket{0} &\gate{H}&&&\ctrl{1}&\gate{H}&&&\ctrl{1}&\cdots\\
+    \ket{0} & \gate{H}&&&\gate{R_Z(\theta_{N-1})} &\gate{H}&&&\gate{R_Z(\theta_k)}&\cdots
+    \end{quantikz}
+    \end{adjustbox}
+\end{figure}

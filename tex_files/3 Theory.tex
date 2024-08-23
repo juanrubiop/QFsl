@@ -1,0 +1,259 @@
+\chapter{Theory} \label{chap:Theory}
+
+In this chapter, a brief outline of QPCs, HPC algorithms, and QML will be delineated. Then a description of QNLP and FSL in the classical and quantum implementations will be given.
+
+\section{Computation in the NISQ era}\label{sec:QPC,HPC}
+
+The NISQ era sets certain limitations on what we can practically do with quantum computers (for those outside the field see \cite{lau_nisq_2022}). Ideally, we would have an all-purpose computer consisting of $N$ qubits on which we could perform arbitrarily many n-qubit unitary operations (where $n \leq N$). However, a well-known result indicates that the minimum number of gates needed to perform an arbitrary N-qubit unitary grows to the order of $4^N$ \cite{barenco_elementary_1995}.
+
+Each additional qubit comes at a cost in increased noise due to the imperfections in the device \cite{krantz_quantum_2019} and the qubits' interaction with the environment \cite{georgopoulos_modeling_2021}. Each additional single and two-qubit gate also brings with itself additional noise \cite{di_bartolomeo_noisy_2023}. All of these make error-correcting a more daunting task that reduces the benefit of having many more qubits \cite{knill_theory_2000}.
+
+With quantum advantage being limited to shallow circuits \cite{bravyi_quantum_2018}, the problem in the NISQ era reduces to developing useful algorithms with a reduced amount of qubits, as few calls to a quantum computer as possible, and as few unitaries as possible.
+
+\subsection{Variational and HQC Algorithms}
+
+One of the most common ways to extract work from quantum computers is through HQC algorithms. These are a class of algorithms that separate each problem into sections and then assign them to a classical or quantum system so that each system works on the type of problem they have an advantage \cite{mcclean_theory_2016}.
+
+The most commonly used HQC algorithms are variational algorithms, where a problem is encoded into a cost function best suited for evaluation in a quantum computer \cite{wecker_progress_2015}. This cost function is encoded through a PQC, where the unitary transform comprises of rotation and controlled rotation gates whose angles are free to change, hence the variation. The quantum circuit is evaluated and then a classical optimiser is used to calculate the adjustment to the rotation parameters to either minimise or maximise the cost function \cite{cerezo_variational_2021}. 
+
+The go-to example for variational algorithms is the Variational Quantum Eigensolver (VQE), first described in 
+\cite{peruzzo_variational_2014}. It is one of the widely used variational algorithms. Its power lies in encoding the problem into a Hamiltonian whose solution is the minimum eigenvalue, the ground state \cite{tilly_variational_2022}. The classical optimisation algorithms find the quantum ground state which is the solution to the problem. It has been widely used to find the ground state of molecules whose analytical and classical numerical solutions are too complicated or costly to otherwise obtain \cite{kandala_hardware-efficient_2017}.
+
+Variational algorithms have been proven to be resilient to noise \cite{sharma_noise_2020,ding_evaluating_2022,fontana_evaluating_2021} and to have incredible versatility for the classes of problems they can be applied to \cite{cerezo_variational_2021}.
+
+Other variational algorithms include the Quantum Approximate Optimisation Algorithm (QAOA) \cite{farhi_quantum_2014}, Quantum Auto Encoder (QAE) \cite{romero_quantum_2017}, and Variational Quantum Error Mitigation (VAQEM) \cite{ravi_vaqem_2022}.
+
+Given all these benefits, it is reasonable to ask, what's the catch? The design and implementation of HQCs and variational algorithms come with an interesting problem:
+
+\subsection{What would be the best way to construct a parameterised circuit?}\label{subsec:ansatz}
+\subsubsection{Ans{\"a}tze}
+
+If we consider a general problem there is almost complete flexibility in the variational circuit we construct for it, both in the number of qubits and the depth (the number of layers) of the circuit.
+
+An ansatz is a general structure of ordered single and multiple qubit gates that can be extended to any arbitrary number of qubits and repeated in layers to an arbitrary depth (circuit \ref{circ:an}).
+
+It can be expressed through a set of unparametrised gates ${V_l}$, such as the set of Pauli X, Y, and Z gates, with a set of unitaries parameterised by a set of angles $\boldsymbol{\theta}={\theta_1,\theta_2,...,\theta_n}$ and traceless rotational generators $V_l$ \cite{leone_practical_2024}.
+
+\begin{align} \label{eq:genansatz}
+    U(\mathbf{\theta})=\prod_l e^{-i\theta_l H_l} V_l
+\end{align}
+
+\input{circuits/genan}
+
+The most straightforward parametrisation is that of a single qubit. The Euler parameterization ansatz for a single qubit (for a general SU(N) group see \cite{tilma_generalized_2002}) consists of applying to a single qubit \cite{tilma_applications_2003} three consecutive rotation gates (circuit \ref{circ:ep}), Rz, Ry, Rx: $|\Psi \rangle = U(\theta_z,\theta_y,\theta_x)|0\rangle = \textbf{Rz}(\theta_z)\textbf{Ry}(\theta_y)\textbf{Rx}(\theta_x)|0 \rangle$. This ansatz can produce any single-qubit quantum state. Visually, it can be pictured as a $\theta$ radians rotation of a qubit state on the Bloch Sphere around an arbitrary axis $\hat{n} =x \hat{\textbf{i}}+y\hat{ \textbf{j}}+z\hat{ \textbf{k}}$ (figure \ref{fig:eulerparam}). Since the analytical calculations to obtain the set of rotation angles for any state are fairly straightforward and computationally simple, this ansatz is enough for simple toy tasks. 
+
+\input{figures/euler parametrization}
+
+\input{circuits/ep}
+
+The Euler parameterization is also non-scalable. That is, this ansatz is only defined for a single qubit and a single layer (as it is an SU(2) parametrisation). For bigger circuit sizes, we would need gates that can produce an entangled state, so gates that involve two or more qubits \cite{nielsen_quantum_2012}.
+
+The most simple ansatz for two or more qubit circuits is called the Instantaneous Quantum Polynomial (IQP) ansatz. This ansatz, as the Euler Parameterisation, is used mostly for toy examples and proof-of-concept experiments, and is, in reality, a family of \mya diagonal in the X basis and which permits the sampling of the state distribution in polynomial time \cite{bremner_average-case_2016}. A single ansatz layer (circuit \ref{circ:IQP}) is defined as a row of Hadamard gates and then a row of Controlled-Z rotations applied to nearest neighbour qubits:
+\begin{align} \label{IQP}
+    | \Psi \rangle = \textbf{CZ}(N-1,N,\theta_N{-1})...\textbf{CZ}(1,2,\theta_2) \textbf{CZ}(0,1,\theta_1) H^{\otimes N}|0 \rangle,
+\end{align}
+where $\textbf{CZ}(i,j,\theta_i)$ is a Z-rotation of $\theta_i$ on qubit j controlled by i.
+
+\input{circuits/iqp}
+
+The previously mentioned \mya serve mostly as an illustration of the concept and for usage in simple problems. Other ans{\"a}tze are more generally used and are usually designed for specific use cases.
+
+The Hardware Efficient Ansatz (HEA) \cite{kandala_hardware-efficient_2017} is a class of \mya where the specific implementation considers the specific hardware requirements of the quantum computer it intends to run on. The HEA considers the qubits to be arranged in a ring-like topology, where each qubit $i$ is connected to its nearest neighbour $i+1$ and the last and first qubits are connected (figure \ref{circ:hea}). It is intended to be an ansatz that allows efficient connectivity while also being depth-frugal \cite{park_hardware-efficient_2024}.
+\input{circuits/efficient}
+
+Other \mya such as Sim15 Ansatz \cite{sim_expressibility_2019} and Strongly Entangling Ansatz \cite{schetakis_binary_2021}, have their merits and their implementations whenever the problem might call for.
+
+\subsubsection{Expressibility and Entanglement Capability}
+
+But the reality is that the creation of an ansatz has few real limitations. As long as the gates can be implemented (or simulated if we don't have access to quantum hardware) there is no practical reason why an unpractical ansatz couldn't be thought of and implemented.
+
+When searching for an ansatz for a variational algorithm, the considerations taken into account are usually hardware-related. As mentioned in the HEA, this usually means how the qubits are topologically connected as well as the specific qubit engineering, some indicators are needed to guide the search for a particular ansatz that transcends necessarily practical concerns. These indicators might be useful when comparing similar \mya or in the early stages of algorithm development when the performance is most important. In this context two measures were developed as a guide in ansatz selection: expressibility and entangling capability \cite{sim_expressibility_2019}.
+
+Expressibility is the measure of how much of the Hilbert space where the quantum state lives is reachable. At the beginning of section \ref{sec:QPC,HPC} we mentioned that for a general $N$ qubit unitary, we would need at minimum around $4^N$ gates. It is important to remember that the goal of any variational algorithm is to find the parameters that make the ansatz behave as a unitary transform $U$ that solves the problem. But the amount of gates used for any ansatz grows polynomially, not exponentially, so even though an ansatz might approach the ideal $U$, it is not a given that it will reach it close enough to be within a margin of error defined.
+
+Expressibility is defined formally as \cite{sim_expressibility_2019} \begin{quote} "a circuit's ability to generate (pure) states that are well representative of the Hilbert space",
+\end{quote} which for a single qubit is essentially\begin{quote}"a circuit's ability to explore the Bloch sphere".
+\end{quote}
+
+In that same paper it is estimated using the following formula:
+\begin{align}
+    \text{Expr}=D_{KL}(\hat{P}_{PQC}(F;\boldsymbol{\theta})\parallel P_{Haar}(F)),
+\end{align}
+where the Kullback-Leibler (KL) \cite{belov_distributions_2011} divergence is calculated between randomly sampling states from the PQC and calculating the estimated distribution of fidelities ($\hat{P}_{PQC}(F;\boldsymbol{\theta})$), and the analytical form of the probabilities distribution ($P_{Haar}(F)$). Using this scheme, a lower KL divergence indicates a more expressible circuit.
+
+Entanglement capability is another useful metric by which to judge \mya. Many algorithms necessitate the preparation of the initial state to be in a certain superposition of pure states, so having an ansatz which can approximately provide this independently of the problem it encounters becomes a necessity for these algorithms in the NISQ era.
+
+Even though other entanglement measures exist and might be more widely used, such as von Neumann's entropy of entanglement \cite{boes_von_2019} or the Schmidt number \cite{terhal_schmidt_2000}, in the paper it is formally defined using the Meyer-Wallach measure \cite{meyer_global_2002} because of its "scalability and ease of computation". Since in this work, the entanglement capability is not used, we will just give the mathematical definition as a starting point for those interested:
+
+For a linear mapping $\iota_j(b)$ on the computational basis: $\iota_j(b)|b_1\cdots b_N\rangle=\delta_{b,b_j}|b_1\cdots\hat{b}_j\cdots b_N\rangle$, where $\hat{b}_j$ is absent. the MW entanglement measure Q is:
+\begin{align}
+    Q(|\Psi\rangle)=\frac{4}{N}\sum_{j=1}^n D(\iota_j(0)|\Psi\rangle,\iota_j(1)|\Psi\rangle),
+\end{align}
+where $D(|u\rangle,|v\rangle)=\frac{1}{2}\sum{i,j}|u_i v_j-u_j v_i|^2$.
+
+It is not straightforward how a particular ansatz will perform in any of these measures, and the expressibility and entanglement capability may change depending on the number of layers used and the width of the circuit. The rate at which it might change between layers is not necessarily linear or consistent across ans{\"a}tze. When selecting a particular ansatz expressibility and entanglement capability should not be taken just as single numbers that can tell the whole story on the architecture, but as a guide that should be taken into account along with all of the requirements of resource usage and any other that might appear. To end with a brief qualitative example, if we would like to use quantum hardware with a ring-like topology, we would look for a version of the HEA that has the highest expressibility within the first two layers, even though others might exist that performs asymptotically better when more layers are added.
+
+\section{Making Qubits Learn}
+Quantum algorithms have come a long way since the early days of the field, where their only purpose was to show that Feynman's quantum machine could indeed outperform their classical counterparts.
+
+The first algorithms were of the toy variety, simple problems that often required one or two-qubit registers and very specific circumstances. Deutsch's \cite{deutsch_quantum_1985} (and later Deutsch-Jozsa's \cite{jozsa_role_2003}) algorithm where the task is to find if a function $f(x)$ is constant or balanced (i.e. outputs always a 1 or a 0 or each half the time) showed exponential speedup compared to its best classical counterpart. Grover's search algorithm \cite{jozsa_searching_1999} needed $\sqrt{N}$ calls when compared to the classical version.
+
+The Quantum Fourier Transform (QFT) \cite{weinstein_implementation_2001} and Quantum Phase Estimation (QPE) \cite{jiang_survey_2021} had to arrive for the field to see the advantage quantum computers had on practical problems. Most notably, Shor's factorisation algorithm leveraged quantum computers to break prime factorization and thus many modern encryption schemes such as RSH Cryptography \cite{wong_shors_2024}.
+
+It is worth mentioning that quantum teleportation \cite{pirandola_advances_2015} and dense coding \cite{guo_advances_2019} do provide useful results, but it is the opinion of the authors of this work that they show that what a quantum computer can do is not necessarily linked to or has to be compared to a classical computer, rather they are proof that the future of the field lies far off the classical path. Ironically, this makes them somewhat unsuited for discussions of the NISQ-era algorithms.
+
+\subsection{Quantum Machine Learning}
+
+Quantum Machine Learning is a subfield that deals with the advantages quantum computers bring to traditional ML. This field rests on the notion that if quantum computers can produce statistical patterns that aren't easily or efficiently reachable for a classical processor, then a quantum computer might also be able to recognise statistical patterns that a classical computer might not \cite{biamonte_quantum_2017}.
+
+What is efficiently computable for a quantum system is not determined by a simple discussion. Current arguments for quantum supremacy rely not necessarily on a strong mathematical proof as in the classical relative of the field, but in a discussion of the state of the art and the comparison with their classical counterpart. More on quantum supremacy can be seen in appendix \ref{app:QuantumSip}.
+
+As of the time of writing, most of the literature in QML relies on variational algorithms and PQCs, where, for example, a variational circuit outputs a state in a space where the basis states are mapped to labels in a classification task. The cost function then relates to how well the circuit classifies a dataset, and the data is encoded in the parameters of the circuit. Then the classical teammate of the HQC algorithm would be tasked with modifying the parameters until the encoding is good enough for a dataset.
+
+Since this work is mainly on Quantum Natural Language Processing (QNLP), to end this section we will just give a couple of common QML architectures for the curious, and delve deeper into QNLP in the next section.
+
+Quantum Neural Networks (QNN) are the quantum counterpart of the classical notion of neural networks. The term QNN has referred to a lot of architectures through the years, where the common ground is the adoption of a particular characteristic of neural networks. For example, the notion of feed-forward neural networks with non-linear activation functions lends itself particularly well to photonic implementations of quantum computers \cite{killoran_continuous-variable_2019,steinbrecher_quantum_2018}. The vast majority of references use the term QNN to refer to variational algorithms and use them in classification tasks \cite{farhi_classification_2018}, where the driving similarity is the modularity and interconnectedness of classical neural networks. For a deeper dive into the theory of QNN, we refer to \cite{schuld_quest_2014}. The use cases of QNN can be thought of as similar to those of classical neural networks. Some examples are: classifying handwritten digits \cite{zhou_recognition_1999}, health applications in oncology \cite{li_model_2014} and cardiology \cite{jie_zhou_automatic_2003}, and time series forecasting \cite{azevedo_time_2007}.
+
+Quantum Generative Adversarial Networks (qGAN) follow the same principle as classical GANs. The task is twofold, with a discriminator and a generator, the discriminator should create a probability distribution with some input that should closely resemble a target distribution. The discriminator must then tell if any given distribution is the target one or the one created by the generator \cite{goodfellow_generative_2014}. The key to qGANs is the creation of an additional quantum circuit used to calculate the gradients needed to optimise the generator circuit's parameters \cite{dallaire-demers_quantum_2018}. qGANs have applications in finance \cite{zoufal_quantum_2019}, chemistry \cite{kao_exploring_2023}, options pricing \cite{fuchs_hybrid_2023}, among others.
+
+Motivated by the benefits of convolutional neural networks, quantum convolutional neural networks (QCNN) seek to emulate the structural characteristics in the quantum realm. In a QCNN, the convolution is constructed through \cite{cong_quantum_2019} "a single quasilocal unitary ($U_l$) in a translationally invariant manner for finite depth", and pooling and nonlinearity is done through measuring some qubits and using the results to adjust the parameters of the subsequent layers. QCNN can be used, as traditional convolutional neural networks, in image classification, as well as in other broader uses such as fluid dynamics problems \cite{umeano_what_2024}.
+
+\subsection{Quantum Natural Language Processing}
+
+\subsubsection{Classical Natural Language Processing}
+Many things have come from Douglas Adams' famous five-book trilogy The Hitchhiker's Guide to the Galaxy. One of the earliest and now only known to a niche group of enthusiasts is the computer game of the same name. This game came out in 1984 and was an interactive fiction video game. This genre of games comes from an era where computers were operated only through the command line and relied on the player reading the description of the scene they were in, and describing in the command line what their actions should be. Normal inputs would be of the type "Go north", "Open box", or "Look around", and if the player dared to stray too far from the interpreter's capabilities they would be rewarded with a message of the type "I do not understand that command".
+
+In a sense, these early games embodied what the field of Natural Language Processing (NLP) strives to achieve, a system that can parse and operate on a user's input as if they were two people speaking.
+
+The popular imagination of the field of NLP has been saturated with recent developments specifically in Large Language Models (LLM) brought upon by transformers \cite{chang_survey_2024}. LLMs now permeate modern life, from companies adapting OpenAi's ChatGPT to serve as assistants and the face of their customer service departments to Meta unilaterally unleashing their Lama model on Whatsapp's users as just another member of their group chats.
+
+However, NLP covers a more diverse area than the creation of generative pre-trained models (GPT). NLP covers a field as diverse as meaning classification \cite{tsvetkov_evaluation_2015}, sentiment analysis \cite{schnabel_evaluation_2015}, speech comprehension, paraphrasing \cite{baumel_sentence_2016}, pronoun resolution \cite{wazni_quantum_2022}, and anything that has to do with how humans communicate \cite{chowdhary_natural_2020}.
+
+For the specific uses of this work, we want to deal with how meaning as a whole arises from the meaning of the specific parts of speech and how they are composed in the structure that binds them together. That is, we are interested in a compositional model of language, where we care not only about the meaning behind the words but also about their structure, for more on the general field of NLP see \cite{klontzas_natural_2023,nadkarni_natural_2011}. What follows is a brief but sufficient explanation of word embeddings, compositionality, and the categorical compositional distribution semantic (DisCoCat) model of language and how we can seamlessly translate it to a quantum implementation.
+
+\subsubsection{Word Embeddings} \label{sec:embeddings}
+The first step to developing a compositional model of meaning is to find a way to assign each word a mathematical object that represents their meaning and which can be used to compare them.
+
+A word embedding is the representation of the meaning of a word in the context of its survey space \cite{jiao_brief_2021}. To unpack this, we first consider what this representation can be. Usually, each word is assigned a vector whose vector space could be thought of as the meaning space of all the words. However, it does not need to be a vector. It can be an N-rank tensor that takes into account other factors, such as the grammatical role of a word \cite{kartsaklis_prior_2013,rahimi_tenssent_2021,rahimi_tens-embedding_2020}. Each tensor is then calculated using a survey space, or a sample of many texts where words can be compared to one another in terms of frequency and how they appear with each other \cite{bakarov_survey_2018}.
+
+From this method of embedding calculation, based on the distributional hypothesis (a hypothesis that proposes that words with similar meanings appear in similar contexts \cite{lenci_distributional_2018}), arise some interesting results. For example, if we take the vector embedding for king, subtract the vector embedding for man, and add the vector embedding for woman, we end up with the vector embedding for queen \cite{mikolov_linguistic_2013}:
+\begin{align*}
+    \overrightarrow{king}-\overrightarrow{man}+\overrightarrow{woman}=\overrightarrow{queen}
+\end{align*}
+This suggests that from some vector set that spans the embeddings vector space, one of those corresponds to the encoding of the meaning of gender, and so it might be that other vectors in some other spanning set could encode other fundamental meanings of words, for example expanding a word vector into a weighted sum of the meaning basis as:
+
+\begin{align}
+    \overrightarrow{dog}=A*\overrightarrow{animal}+B*\overrightarrow{fur}+C*\overrightarrow{friendliness}+...
+\end{align}
+
+Word embeddings form the basis for many more complex NLP tasks, but from them, some rudimentary analysis can be performed. One can judge how alike two words are in meaning by calculating their distance using some metric (usually Euclidean distance but others can be used), those words whose meaning is similar should be closer to each other \cite{che_traversal-free_2017}. The cosine distance is another technique used \cite{mikolov_linguistic_2013}, it is just the dot product of two embeddings and provides similar information.
+
+The way to obtain these embeddings can vary in anything from the sources themselves, Stanford's GloVe embeddings \cite{pennington_glove_2014}, for example, are a set of embeddings calculated from three different sources: Wikipedia, Common Crawl, and Twitter, to the different techniques used to extract the embeddings. Co-occurrence is usually the main driving principle for any algorithm, but modifications in the unsupervised models do exist. A recent technique called BERT (Bidirectional Encoder Representations from Transformers) \cite{devlin_bert_2019}, treats each word string as a single entity. Previous models usually read each word directionally (either left to right or right to left). 
+
+That these models rely on data created and consumed by humans makes them quite susceptible to bias, a brief discussion can be seen in appendix \ref{app:bias}.
+
+\subsubsection{Compositionality and Bag of Words}
+The language we use does not rely on individual words to tell whole ideas. Language is based on compositionality \cite{moore_meaning_1993,riemer_routledge_2016}, words are used together to form complex text structures that alter the individual meaning of each of their components. So to construct a model capable of doing more interesting tasks, a compositional model is needed atop the word embeddings previously described.
+
+The Bag of Words (BoW) model of language \cite{qader_overview_2019,zhang_understanding_2010} comes from distributionality. One of the key features of language modelling since the middle of the 20th century, Distributionality is the principle that what matters most to identify the meaning of a piece of text or a sentence is the existence and multiplicity of its atomical components \cite{harris_distributional_1954}. It is called Bag of Words due to its visual analogue of throwing all the words into a bag as if they were Scrabble tiles. The order and their relation are lost.
+
+As a model, BoW is simple and not computationally intensive. It is also versatile, being adapted to computer vision \cite{qader_overview_2019}, as there are also models that can transform an image into an embedding that encodes its features. It suits particularly well that field as computer vision is resource intensive.
+
+However, what makes it simple is also one of its greatest drawbacks. The syntactic structure of text also forms part of its meaning \cite{ives_notes_1964}. For example, even though "Boys like dogs" and "Dogs like boys" have the same word tokens, they mean different things. For simple tasks, this does not affect performance significantly. Nevertheless, a more complete model of language is needed once we try to expand the use cases of NLP and minimise its errors.
+
+And thus we arrive at DisCoCat.
+
+\subsubsection{DisCoCat}\label{sec:discocat}
+
+For a complete theoretical description, we point to the paper on which DisCoCat was originally introduced \cite{coecke_mathematical_2010}. A brief but sufficient description of the mathematical model follows, which serves as enough foundation to understand its quantum implementation. Briefly, DisCoCat gives a method to obtain the meaning vector $\Vec{s}$ of any sentence, where for any sentence they all live in the same meaning space $\{ \Vec{s}\}_i \in S$, thus allowing the comparison of the meaning of sentences with different grammatical structures.
+
+DisCoCat follows a categorical-theoretic approach to model language. The authors justify this choice by enlisting what a compositional model of language needs and how this is fulfilled by categories. Firstly, the structure of monoidal categories helps capture compositionality, particularly through the monoidal product. This in turn helps to leap from a qualitative space of meaning to a quantitative one. The structural morphisms of the chosen categories help shape the morphisms to construct the flow they call, from-meaning-of-words-to-meaning-of-a-sentence. Finally, this model helps reason about the grammatical structure of a sentence as an object in and of itself, thus allowing us to study more in-depth the role grammar plays in endowing a sentence with its meaning.
+
+The from-meaning-of-words-to-meaning-of-a-sentence model gives us a recipe to use the categorical-theoretic machinery to take some vector representation of the meaning of the individual words and how they are related dramatically to each other to output the meaning of the sentence. 
+
+They do this by first stating two categories: \textbf{FVec}, which is the category with vector spaces over the field of reals $\Re$, and the tensor product $\otimes$ as the monoidal tensor, and the category of Pregroups, \textbf{P}, a posetal category, endowed with the morphisms needed to turn it into a compact closed category. Each of them serves a specific purpose. \textbf{FVec} is in charge of modelling the meaning of the words, and \textbf{P} assigns the grammatical relationship of the words in the sentence.
+
+Instead of having the meaning of the word be just that of its embedding vector, the authors define the meaning space of the word $\Vec{w}$, element of the vector space $W$, $\Vec{w} \in W$, as an object $(W,p)$ of \textbf{FVec}$\times$\textbf{P}, where p is the grammatical type of $\Vec{w}$. So the meaning of a string of words ordered in some particular way is a linear map $f$, $\overrightarrow{w_1\otimes w_2\otimes \cdots \otimes w_i}:=f(w_1w_2\cdots w_i)$, which relies the structural morphism: 
+\begin{align}
+    (W_1\otimes W_2 \otimes \cdots \otimes W_i,p_1p_2\cdots p_i)\rightarrow^{(f,\leq)}(X,x).
+\end{align}
+The map $f$ is obtained by substituting each $p_i$ in $p_1p_2...p_n\leq x$ with $W_i$. This map $f$ is the core of the model and is the from-meaning-of-words-to-meaning-of-a-sentence map.
+
+So to obtain the meaning of some sentence, the recipe involves first assigning a grammatical type to each of the words in the sentence. Then defining the vector space which encodes the meaning of each word, and finally taking the tensor product of the words and applying to it the map of the syntactic reduction of the string.
+
+To end with an abstract example, we will look at what happens when we try to find the meaning of a positive transitive sentence. This is a sentence of the form Subject-Verb-Object, e.g. I love you. We start by defining the meaning spaces of the subject and the verb as $(Sub,n)$ and $(Ob,n)$, respectively (one can see both share the same grammatical type n as they are both nouns). The meaning space of the transitive verb $T$ is $(Sub\otimes S    \otimes Ob,n^rsn^l)$. The meaning map $f$ we are looking for is the map that realises the structural morphism:
+\begin{align}
+    (Sub\otimes T \otimes Ob,n(n^rsn^l))\rightarrow^{(f,\leq)}(S,s),
+\end{align}
+which according to the syntactic reduction map is
+\begin{align}
+    f=\epsilon_{Sub}\otimes 1_S \otimes \epsilon_{Ob}:Sub\otimes(Sub\otimes S    \otimes Ob)\otimes Ob \rightarrow S,    
+\end{align}
+and to get the meaning vector we would apply $f$ to the tensor product of the embeddings of the sentences:
+\begin{align}
+    f(\overrightarrow{Sub}\otimes \Vec{T} \otimes \overrightarrow{Ob})=\epsilon_{Sub}\otimes 1_S \otimes \epsilon_{Ob}(\overrightarrow{Sub}\otimes \Vec{T} \otimes \overrightarrow{Ob})
+\end{align}
+To throw some numbers around, say we define the meaning space of a sentence to have its vector space be spanned by $\hat{e}_1=[1,0]$ and $\hat{e}_1=[0,1]$, where $\hat{e}_1$ is the meaning vector we assign to the word true, and $\hat{e}_2$ is the one we assign to false. We then would have two sentences: $\Vec{s_1}=\text{I love you}$ and $\Vec{s_1}=\text{My friend likes me}$. After defining the proper grammatical pregroups and applying the corresponding meaning map, we would obtain the meaning vector $m_1=f(\overrightarrow{s_1})=[0.90,0.28]$ if you are my girlfriend and $m_2=f(\overrightarrow{s_2})=[0.35,0.8]$ if I might have missed my friend's birthday party. This will indicate that, according to our definitions of the spanning vectors of $S$, sentence 1 is truer than sentence 2. We can not only assert whether each sentence is true or not, but we can also compare them to one another even though they have different words and syntactic structures.
+
+This is the power and advantage of \textit{classical} DisCoCat.
+
+\subsubsection{Schr{\"o}dinger's DisCoCat}
+This section builds on all the theories we have discussed so far.
+
+We have talked about vectors, tensor product, and, in a sense, the flow of information across a sentence. In \cite{coecke_mathematical_2010} the authors even make heavy use of diagrammatic language that if one were to squint and maybe turn their head on their side it might look like the diagram of a quantum circuit. Indeed DisCoCat is a compositional model of meaning that, under the hood, relies computationally on tensor networks. So it is natural to ask if there might be some way to do DisCoCat on a quantum computer.
+
+The process of turning a DisCoCat diagram into a quantum circuit is straightforward and outlined in \cite{lorenz_qnlp_2023,meichanetzidis_quantum_2021}. In a short, but mathematical description, functors are used to translate between the categories of Pregroup grammar \textbf{P} and finite Hilbert spaces \textbf{fHilb}, $\mathbf{F}:\mathbf{P}\rightarrow\mathbf{fHilb}$. Then we need to choose a concrete way in which the circuit will take shape through an ansatz. This in turn has its considerations mentioned in section \ref{subsec:ansatz}. The mapping into the category \textbf{fHilb} means that each type \textbf{P} will have its own dimensionality. So, for example, a noun of type N will correspond to a Hilbert space of dimension 4, while a sentence of type S will correspond to a Hilbert space of dimension 2. After the ansatz is chosen, we will need to construct the circuit according to the rules of DisCoCat, which is, essentially, turning the wires in the classical diagrams into wires in the quantum circuit. After all the mappings are finished and we have a fully connected circuit, we just run it and measure it to obtain the state representing the meaning of the sentence.
+
+Some more post-processing is required. After taking a certain number of shots, some of the measurements that do not fit certain requirements need to be discarded. Currently, the state of the art for quantum DisCoCat (and its classical implementation) relies on HQC and variational algorithms, so in reality, we are training the parameters of a PQC to learn the meaning space of the sentence and to correctly output the state given a variety of words and their order.
+
+This happens in classical implementations of DisCoCat as well. According to DisCoCat, it is reasonable to define before any processing is done both the meaning vectors of the words and the meaning space of the sentence. So both the word encodings are learned and the sentence meaning space is defined through the training data.
+
+\subsubsection{The Bad News}
+
+Given the direct functorial translation between classical DisCoCat and an abstract implementation into a PQC, the difficulty lies not in how to perform NLP, but how to perform it efficiently. As mentioned before, current methods involve training a circuit with a given ansatz to perform a given task, usually with basic ans{\"a}tze. For example in \cite{wazni_towards_2023} the authors trained a circuit using the IQP ansatz to perform pronoun resolution.
+
+There is, as of now, no direct DisCoCat implementation on a quantum circuit that doesn't rely on training it. This comes at a great cost in both the running of the circuits themselves and the classical optimisation needed to train them. After training, these circuits have also other shortfalls. There is no reliable way to obtain the output of a circuit with out-of-vocabulary (OOV) words, words that the engine didn't see during training.
+
+Given the vast amount of resources needed to train a quantum computer for an NLP task, there is a real need to maximise each shot and offload all the work to a classical computer, so that a PQC does what it knows best.
+
+\section{Few Shot Learning in QML: the why the how and the who}
+\subsection{The why}
+The problem of cost is not endemic only to QNLP, it is a product of the NISQ era. Running a quantum computer is expensive \cite{chauhan_quantum_2022}, simulating a quantum computer is expensive \cite{zhou_what_2020}. As HQC algorithms do, the name of the game is offloading as much work as possible to classical computers
+
+We can treat quantum computers as a resource that we have in limited quantities, and search for classical frameworks which seek to maximise the performance of ML models in circumstances of reduced resources.
+
+Few Shot Learning (FSL) is a technique in ML that helps machines label objects using as few resources as possible by exploiting the known structure of some previous categories \cite{li_fei-fei_one-shot_2006}.
+
+FSL is an umbrella term now that encompasses a host of techniques that in some way or another, manipulate the datasets, the models themselves, or the training methods to maximise the performance of the models in circumstances of reduced resources. The literature is vast and we will point to some sources for a more in-depth look \cite{parnami_learning_2022}. For this work, we will limit ourselves to explaining the relevant aspects of FSL that could provide some benefit to QML.
+
+\subsection{The how}
+Literature and techniques in FSL can be sorted according to the types of problems they help to overcome and according to how previous knowledge is used to solve them \cite{wang_generalizing_2021, liu_embedding_2022}. From them, here is a survey of the techniques we consider would specifically benefit QML and NISQ-era computing.
+
+\textbf{Transfer learning} is a technique that promises to leverage the vast amount of information obtained through classical ML. This technique tries to leverage some amount of information that is abundant in some domain, to perform tasks in another domain where information might be scarce \cite{pan_survey_2010,niu_decade_2020,zhuang_comprehensive_2021}. This technique becomes particularly useful if we want to try to find a way in which we could use classical embeddings to guide the training of the variational parameters. Classical embeddings are vast and easy to compute, so if we could find a way to leverage them, then the number of times a given circuit would need to be computed would decrease.
+
+\textbf{Imbalanced learning} is applied in cases where the dataset is askew, for example, if we are trying to have a model classify between five different classes and most of the dataset corresponds to only two classes \cite{herbelot_high-risk_2017,haibo_he_learning_2009}. This applies to NLP meaning classification tasks (and by extension their quantum counterpart) where not only the dataset might be askew, but also in the cases where some words might appear heavily in some classes even though they would apply to more than one.
+
+\textbf{Meta learning} can prove to have some applications in QNLP. Its core idea is the construction of a meta-learner, a model whose job is to identify common structures among tasks that the learners then use to enhance their training \cite{goos_learning_2001,hospedales_meta-learning_2021}. This might be useful in QNLP since embeddings are constructed through the definition of a structure. If a task could share a similar Hilbert space on which the meaning vector space lives, then a meta-learner would be a useful tool.
+
+% Todo esto hay queue revisarlo y leer mas literature, esta muy sacado del culo
+
+The implementation of any of these methods can also vary, and it is useful to classify them according to which part of the training process they influence \cite{wang_generalizing_2021}: the data, the model, or the algorithm. The first one is the most straightforward. Given a dataset, the FSL methods that focus on that stage try to augment it to get more samples if the samples are limited (for an image model we can manipulate each sample to add multiple instances of it to the data set) or to clean the existing samples. In the algorithm branch, we modify the learning algorithm to nudge it in the direction we already know the solution should be. Finally, in the model part, we artificially restrict the search space of the model to forbid it from wasting resources exploring parts of it from previous knowledge we know contain no solution.
+
+Each of the three might have a specific role in QNLP and QML. The particular emphasis on embedding and multitasking learning the model approach has, for example, can make it particularly suited for QNLP. The data approach is also relevant due to its applications in transfer learning. Finally, the algorithm becomes relevant when considering the meta-characteristics of QNLP and QML, especially the barren plateau problem \cite{friedrich_avoiding_2022,holmes_connecting_2022,wang_noise-induced_2021,cerezo_cost_2021,patti_entanglement_2021,mcclean_barren_2018}. For this work, it suffices to say it helps us refine the learning processes of our models.
+
+\subsection{The who}\label{sec:who}
+One of the most promising results for FSL in QML is the 2022 paper by Liu et al \cite{liu_embedding_2022}. As in section \ref{sec:discocat}, we will touch upon the most important aspects of the paper and recommend its full reading.
+
+In their paper, they propose a framework to learn embeddings based on the paradigms of classical FSL. They proposed the construction of a parametrized circuit divided into two segments (figure \ref{circ:pqe}): first, an encoding parametrized layer whose parameters are obtained through some (not necessarily linear) mapping of classical available data to rotation angles, this layer is called the Pre Quantum Embedding (PQE) layer, and in the paper they trained a neural network to map an image of a character to the gates' rotation angles; then layers of what could be thought of as variational circuits whose parameters are the ones that are updated through the model's learning cycles.
+
+\input{circuits/pqe}
+
+Using this method they encoded two different images of characters and used the output of a circuit, a real number between 1 and 0, to gauge whether the model thought the images represented the same character. Their paper showed promising results: they found that FSL can generalise to unseen classes, allow for a more in-depth exploration of the solutions space, and outperform classical cosine distance. This first experiment shows that FSL can work in HQC and variational algorithms.% ver bien esto porque me suena bien raro
+
+As of the moment of writing, FSL for NLP tasks on a quantum circuit has yet to be implemented.% Given the constraints imposed by QNLP in the NISQ era, it is the framework outlined in this paper that will be used in this work, adapted to solve NLP tasks. Even though computer vision and NLP share similar characteristics within the field of ML, they present different challenges and different constraints. However, the generalisation and toolbox that FSL provides will allow for it to be implemented in QNLP with its corresponding modifications.
+
+Finally, it is necessary to mention a recent result which shows that a model with $T$ trainable gates and $N$ training data has a generalisation error that scales at worse to the order of $\sqrt{T/N}$, and which in some cases can be improved to $\sqrt{K/N}$ where $K\ll N$ \cite{caro_generalization_2022}.
+
+
+
+

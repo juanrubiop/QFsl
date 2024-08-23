@@ -1,0 +1,190 @@
+% Author: Joseph Rowell
+% Version: 3.0
+% This work is licensed under a Creative Commons Attribution 4.0 International License.
+\documentclass[12pt, a4paper]{report}
+\usepackage[a4paper, total={6.25in, 8.25in}]{geometry} 
+%%%%%% CHECK MARGIN REQ. 8.25 in?
+
+\input{Packages.tex}
+\usepackage{multicol}
+\hypersetup{pdftitle = Project Report, pdfauthor = {First Last}, pdfstartview=FitH, pdfkeywords = essay, pdfpagemode = FullScreen, colorlinks, anchorcolor = black, citecolor = blue, urlcolor = blue, filecolor = green, linkcolor = blue, plainpages = false}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\rhead{}
+\chead{}
+\lhead{University College London}
+\lfoot{\date{}}
+\cfoot{}
+\rfoot{\thepage}
+% Top and Bottom Line Rules
+
+\renewcommand{\headrulewidth}{0.4pt} %0.4pt
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyheadoffset{8pt}
+\fancyfootoffset{8pt}
+% Line spacing
+\renewcommand{\baselinestretch}{1.5} %1.5
+
+\input{Glossary}
+
+\date{September 2024}
+
+\title{A Few Shot Learning Scheme for Quantum Natural Language Processing}
+\author{\\ \Large{Juan Pablo Rubio Perez}
+\\ Supervisors: Mehrnoosh Sadrzadeh
+\\ Faculty of Maths and Physics
+\\ Department of Physics and Astronomy
+\\ 
+\\
+\\ University College London
+\\
+A Project Report Presented in Partial Fulfillment of the Degree \\ \textit{MSc in Quantum Technologies}
+\\ \\
+% \\Disclaimer:This report is submitted as part requirement for the MSc in Robotics  and Computation at University College London. It is substantially the result of my own work except where explicitly indicated in the text.The report may be freely copied and distributed provided the source is explicitly acknowledged.
+% September 2022
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%Adjust logo positions here
+% \AddToShipoutPicture*{\parbox[t][\paperheight][t]{\paperwidth}{%
+%           \includegraphics[width=\paperwidth]{\BackgroundPicturea{Logos/ucl_long%_logo.png}{3in}{3in}}
+%           }}
+% \AddToShipoutPicture*{\centering\BackgroundPictureb{Logos/Bentham2011_065_c623d.jpg}{3in}{3.7in}}
+\AddToShipoutPictureBG*{%
+  \AtPageUpperLeft{%
+    \raisebox{-\height}{%
+      \includegraphics[width=\paperwidth]{Logos/UCL physics header.png}%
+    }}
+}
+\AddToShipoutPicture*{%
+      \parbox[t][\paperheight][t]{\paperwidth}{%
+          \includegraphics[width=1.2\paperwidth]{Logos/UCL page footer.png}
+      }}
+      
+
+\thispagestyle{headings}
+\maketitle
+\FloatBarrier
+\pagenumbering{roman}
+
+\thispagestyle{empty}
+\begin{abstract}
+\input{0 Abstract}
+
+%\keywords{keyword 1 - keyword 2 - keyword 3}
+% \vspace{-10mm} %To remove added white space after
+\end{abstract}
+\newpage
+\thispagestyle{empty}
+\begin{center}
+A mi pap\aa, que se qued\oo \vspace{1pt} en el camino y s\ee \vspace{1pt} que se alegrar\ii a de ver a d\oo nde he llegado y lo que me falta por recorrer, a mi mam\aa \vspace{1pt} y mi hermano por el apoyo que nunca se detuvo, y a todos los que quiero que de nombrarlos uno por uno no quedar\ii a m\aa s espacio para escribir y pecar\ii a de omisi\oo n.
+\end{center}
+
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+Copyright \copyright  \thinspace 2024 by Juan Pablo Rubio Perez \\ All Rights Reserved
+\end{center}
+\vspace*{\fill}
+\newpage
+\thispagestyle{empty}
+\epigraph{But what...is it good for.}{--- \textup{\textit{Engineer at IBM, 1968, commenting on the microchip}}}
+
+\epigraph{Radio has no future. Heavier-than-air flying machines are impossible. X-rays will prove to be a hoax.}{--- \textup{\textit{William Thomson, Lord Kelvin, 1899}}}
+
+\epigraph{Nature isn't classical, dammit, and if you want to make a simulation of Nature, you'd better make it quantum mechanical, and by golly it's a wonderful problem because it doesn't look so easy.}{--- \textup{\textit{Richard Feynman, 1981}}}
+
+
+\thispagestyle{empty}
+%\chapter*{Acknowledgements}
+
+
+\thispagestyle{empty}
+\chapter*{Declaration}
+I, Juan Pablo Rubio Perez,  declare that the thesis has been composed by myself and that the work has not be submitted for any other degree or professional qualification. I confirm that the work submitted is my own, except where work which has formed part of jointly-authored publications has been included and referenced. The report may be freely copied and distributed provided the source is explicitly acknowledged. \\
+%Add signature png here.
+ \begin{figure}[H]
+ \includegraphics[width=0.3\linewidth]{Logos/signature}
+ \end{figure}
+\vspace{-2cm}
+\noindent\begin{tabular}{ll}
+ & 23/08/24 \\
+\makebox[2.5in]{\hrulefill} & \makebox[2.5in]{\hrulefill}\\
+\textit{Signature} & \textit{Date}\\
+\end{tabular}
+
+
+
+\tableofcontents
+
+\thispagestyle{plain}
+\listoffigures
+%\listoftables
+%\lstlistoflistings
+%\listofalgorithms
+
+
+%\begin{singlespace}
+\chapter*{List of Abbreviations}
+\begin{sortedlist} %sort alphabetically
+  \sortitem{NISQ:    Noisy Intermediate Scale Quantum}
+  \sortitem{QPC:    Quantum Parametrised Circuits}
+  \sortitem{HQC:    Hybrid Quantum-Classical}
+  \sortitem{QML:    Quantum Machine Learning}
+  \sortitem{QNLP:    Quantum Natural Language Processing}
+  \sortitem{QNLP:    Natural Language Processing}
+  \sortitem{FSL:    Few Shot Learning}
+  \sortitem{OOV:    Out of Vocabulary}
+  \sortitem{VQE:    Variational Quantum Eigensolver}
+  \sortitem{HEA:    Hardware Efficient Ansatz}
+  \sortitem{QPE:    Quantum Phase Estimation}
+  \sortitem{QFT:    Quantum Fourier Transform}
+  \sortitem{qGAN:    Quantum Generative Adversarial Networks}
+  \sortitem{QCNN:    Quantum Convolutional Neural Networks}
+  \sortitem{BERT:    Bidirectional Encoder Representations from Transformers}
+  \sortitem{PQE:    Pre Quantum Embeddings}
+  \sortitem{BoW:    Bag of Words}
+  \sortitem{FSL:    Few Shot Learning}
+  \sortitem{AAE:    Approximate Amplitude Encoding}
+  \sortitem{PQA:    Practical Quantum Advantage}
+  \sortitem{PrPQA:    Provable Quantum Advantage}
+  \sortitem{RPQA:    Robust Practical Quantum Advantage}
+  
+
+  \end{sortedlist}
+% \end{singlespace}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{1 Introduction}
+\input{2 Scheme}
+\input{3 Theory}
+\input{4 Problem}
+\input{5 Framework}
+\input{6 Experiment}
+\input{7 Res and Con}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\bibname}{References}
+\bibliographystyle{ieeetr}
+%\bibliography{Bibliography.bib}
+\bibliography{bibliography.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% APPENDIX
+\begin{appendices}
+\chapter{Source Code} \label{System Requirements}
+Source code for the datasets (both original and extended), the trained neural networks, and the code used can be found in: \newline \url{https://github.com/juanrubiop/QFsl}. \newline \\
+
+\input{app-QuantumSupremacy}
+\input{app-bias}
+%\input{app-barren}
+\input{app-aae}
+
+\end{appendices}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% GLOSSARY
+%\clearpage
+%\printglossaries
+
+% INDEX?
+
+\end{document}

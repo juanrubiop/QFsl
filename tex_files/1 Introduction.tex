@@ -1,0 +1,26 @@
+\chapter{Introduction} \label{Chap1}
+\pagenumbering{arabic}
+
+When computers were first imagined it seemed that their practical implementation would take decades, centuries even. The first ones filled rooms and were noisy, clunky machines that could be easily outperformed by today's wristwatches. And yet, it would be hard to think of a world that dispenses with transistors and logic gates.
+% Puede valer la pena poner unas citas o minimo referencias http://www.rinkworks.com/said/predictions.shtml
+
+Quantum computers have, as of now, followed a similar path. Many attribute the notion of a computer using quantum phenomena to first come about in Richard Feynman's 1981 talk about simulating quantum phenomena. Feynman speculated about a new type of universal computer better suited to simulate quantum phenomena, prophetically describing what we would later come to know as quantum computers \cite{hey_feynman_2002}:
+%Para referencias de feynman https://arxiv.org/pdf/2106.10522#page=2.13 y el libro
+
+\begin{quote}
+    "Can you do it with a new kind of computer - a quantum computer? [...] as far as I can tell, you can simulate this with a quantum system with quantum computer elements. It's not a Turing machine, but a machine of a different kind."
+\end{quote} 
+
+John Preskill described in a 2018 paper what is known as the Noisy Intermediate Scale Quantum era (NISQ). A broad and mostly qualitative term which connotes a stage in quantum computing where we are past proof-of-concept devices, but on which fidelity and scalability issues prevent us from dreaming and creating big.
+
+Preskill defined the \textit{intermediate} adjective to refer to a stage where quantum computers were made of only 50 to 100 qubits. In December 2023, IBM unveiled their Condor computer, a 1000+ qubit computer that shows the main limitation today is not our ability to design and implement theoretically perfect quantum machines, but the \textit{noisiness} Preskill made central to the NISQ era. 
+
+Noise is today's quantum killer. Even if there were a large number of qubits available to us, the need to perform error correction and limit decoherence renders the construction and implementation of a general-purpose quantum computer or algorithm fairly limited.
+
+To overcome this, a few tricks have been developed. One of them is to construct Quantum Parameterised Circuits (QPC) and use Hybrid Quantum-Classical (HQC) algorithms, which involve a system of classical and quantum computers working together to solve a problem. These tools allow for the exploitation of quantum computers in the NISQ era and have ushered in the development of new techniques such as Quantum Machine Learning (QML).
+
+Quantum Natural Language Processing (QNLP) is a sub-field of this last discipline that focuses on translating and implementing classical Natural Language Processing (NLP) techniques to quantum circuits.
+
+Even though QPCs and HQC algorithms help to overcome many of the issues brought on by noisiness, there is still room for improvement if we want to squeeze out every drop of performance from a quantum processor. Few-shot learning (FSL) is a technique in classical Machine Learning that seeks to extract a reasonably useful training cycle in an environment where training capabilities are somewhat limited. The constraints on which FSL operate make it an ideal candidate to implement in QML to be able to obtain more out of each call to a quantum computer.
+
+Quantum computers are a reality, and they might be big and clunky machines that require delicate touch and clever manoeuvring to show their true potential. But as many computer scientists did more than half a century ago, we strive to construct a world where a future without qubits becomes practically impossible to imagine.

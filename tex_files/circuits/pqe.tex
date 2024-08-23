@@ -1,0 +1,14 @@
+\begin{figure}[H]
+    \centering
+    \caption{FSL encoding scheme}
+    \begin{quantikz}
+        & \gate[6]{PQE(\boldsymbol{{\theta_i}})}\gategroup[6,steps=1,style={dashed,rounded corners,fill=blue!20, inner xsep=2pt},background,label style={label position=below,anchor=north,yshift=-0.2cm}]{PQE layer}&\gate[6]{W_1(\boldsymbol{\alpha})}\gategroup[6,steps=3,style={dashed,rounded corners,fill=red!20, inner xsep=2pt},background,label style={label position=below,anchor=north,yshift=-0.2cm}]{Layers of trainable encodings}&\gate[6]{W_2(\boldsymbol{\beta})}&\gate[6]{W_1(\boldsymbol{\gamma})}&\\
+        & & & & &\\
+        & & & & & \\
+        \myvdots \\
+        & & & & & \\
+        & & & & &  
+    \end{quantikz}
+    \label{circ:pqe}
+\end{figure}
+%\vqw{x}

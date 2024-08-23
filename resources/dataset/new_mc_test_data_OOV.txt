@@ -1,0 +1,73 @@
+1 individual grills delicious feast .
+1 boy grills delicious feast .
+0 boy completes interesting tool .
+0 adept boy completes tool .
+0 boy completes tool .
+0 adept lady executes tool .
+1 adept boy grills breakfast .
+1 adept lady grills noodles .
+1 boy grills delicious breakfast .
+1 adept boy grills noodles .
+1 adept lady grills breakfast .
+0 lady executes interesting algorithm .
+1 individual completes delicious feast .
+1 adept individual grills feast .
+1 lady grills delicious breakfast .
+0 lady completes tool .
+0 individual executes interesting algorithm .
+0 lady executes interesting tool .
+1 adept lady completes feast .
+0 individual completes tool .
+1 adept lady grills feast .
+1 boy grills delicious noodles .
+0 boy fixes interesting algorithm .
+0 individual completes interesting algorithm .
+0 adept individual completes tool .
+0 individual completes algorithm .
+1 lady completes noodles .
+1 lady completes feast .
+0 adept boy fixes tool .
+1 lady completes delicious feast .
+0 adept lady fixes tool .
+0 individual fixes interesting algorithm .
+1 individual grills delicious noodles .
+1 adept boy completes breakfast .
+0 boy completes algorithm .
+0 adept boy completes algorithm .
+0 boy fixes interesting tool .
+0 boy executes algorithm .
+0 boy completes interesting algorithm .
+1 adept boy grills feast .
+0 adept boy executes tool .
+0 lady fixes interesting tool .
+1 lady grills delicious feast .
+0 lady completes algorithm .
+0 individual completes interesting tool .
+1 boy completes delicious feast .
+1 boy completes feast .
+0 adept individual completes algorithm .
+0 adept lady executes algorithm .
+1 lady completes delicious breakfast .
+1 boy completes delicious noodles .
+1 boy completes breakfast .
+1 adept individual grills breakfast .
+0 adept lady completes tool .
+1 individual completes delicious breakfast .
+1 adept individual completes feast .
+0 lady executes algorithm .
+1 lady completes breakfast .
+1 adept individual grills noodles .
+0 boy executes tool .
+0 boy fixes tool .
+1 lady grills feast .
+1 lady grills breakfast .
+1 boy completes noodles .
+1 lady grills delicious noodles .
+1 individual grills feast .
+1 adept boy completes noodles .
+1 individual completes breakfast .
+1 lady grills noodles .
+1 boy grills noodles .
+0 lady fixes interesting algorithm .
+1 adept individual completes noodles .
+1 individual completes delicious noodles .

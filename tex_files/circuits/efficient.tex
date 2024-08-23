@@ -1,0 +1,13 @@
+\begin{figure}[H]
+    \centering
+    \caption{General Hardware Efficient Ansatz}
+    \begin{quantikz}
+        \ket{0} & \gate{U_1}&\gate[2]{U_{\theta_1}}&&&&\gate[6,style={fill opacity=0}]{U_{\theta_N}}&\\
+        \ket{0} & \gate{U_2} &&\gate[2]{U_{\theta_2}}&&&\linethrough&\\
+        \ket{0} & \gate{U_3}&&&\gate[3]{U_{\theta_3}}&&\linethrough&\\
+        \myvdots \\
+        \ket{0} & \gate{U_{N-1}}&&&&\gate[2]{U_{\theta_{N-1}}}&\linethrough&\\
+        \ket{0} & \gate{U_{N}}&&&&&&
+    \end{quantikz}
+    \label{circ:hea}
+\end{figure}

@@ -1,0 +1,522 @@
+0 dexterous gentleman makes code .
+1 skillful person bakes dinner .
+0 woman makes software .
+0 woman debugs useful program .
+1 guy roasts flavorful lunch .
+1 dexterous guy roasts dinner .
+1 someone roasts tasty lunch .
+1 dexterous someone bakes soup .
+1 masterful teenager cooks supper .
+1 masterful guy bakes soup .
+1 gentleman bakes tasty snack .
+1 guy prepares tasty sauce .
+1 man makes tasty chicken .
+0 man prepares practical code .
+1 person cooks delightful sauce .
+1 teenager makes tasty lunch .
+1 guy prepares delightful meal .
+1 someone roasts dinner .
+0 skillful guy runs software .
+0 woman debugs practical application .
+1 dexterous person bakes supper .
+1 man roasts flavorful meal .
+1 teenager bakes snack .
+0 man makes useful software .
+1 dexterous person roasts soup .
+0 person prepares useful software .
+0 teenager runs helpful program .
+1 teenager cooks tasty snack .
+1 dexterous someone prepares meal .
+0 person prepares useful code .
+1 dexterous woman roasts meal .
+1 teenager cooks tasty soup .
+1 masterful person roasts sauce .
+1 skillful guy cooks snack .
+0 dexterous guy prepares software .
+1 person prepares delightful chicken .
+0 gentleman makes useful software .
+1 dexterous guy cooks soup .
+1 someone cooks tasty lunch .
+1 person cooks soup .
+1 skillful someone cooks supper .
+1 man prepares tasty snack .
+0 gentleman prepares practical code .
+1 dexterous person bakes meal .
+1 masterful man cooks sauce .
+1 gentleman makes tasty meal .
+1 gentleman prepares delightful meal .
+1 dexterous someone bakes chicken .
+1 teenager prepares dinner .
+0 masterful someone repairs software .
+1 skillful guy roasts chicken .
+0 man prepares practical software .
+1 guy cooks soup .
+1 woman cooks flavorful lunch .
+1 teenager prepares flavorful lunch .
+1 someone prepares tasty meal .
+0 guy debugs helpful code .
+1 gentleman cooks flavorful snack .
+1 dexterous person cooks meal .
+1 skillful man prepares sauce .
+0 guy makes practical application .
+1 guy makes flavorful sauce .
+1 someone makes tasty supper .
+1 masterful man makes sauce .
+1 dexterous guy cooks lunch .
+1 dexterous gentleman roasts snack .
+1 masterful someone roasts lunch .
+1 masterful teenager bakes meal .
+1 gentleman makes supper .
+0 man makes helpful code .
+0 teenager troubleshoots useful program .
+1 teenager makes chicken .
+1 someone bakes lunch .
+1 guy bakes soup .
+1 teenager makes delightful meal .
+0 dexterous guy prepares program .
+1 teenager bakes dinner .
+1 gentleman bakes chicken .
+0 person debugs helpful code .
+1 someone cooks tasty chicken .
+1 skillful man bakes chicken .
+1 someone makes chicken .
+1 man bakes delightful dinner .
+1 woman roasts flavorful chicken .
+0 dexterous man repairs software .
+0 masterful person repairs code .
+1 masterful woman bakes meal .
+1 someone cooks delightful supper .
+0 person makes code .
+0 masterful person runs software .
+1 guy makes sauce .
+0 person debugs helpful application .
+1 skillful someone bakes dinner .
+0 woman runs helpful software .
+1 teenager bakes delightful meal .
+1 woman cooks delightful sauce .
+1 masterful someone makes meal .
+1 dexterous man bakes soup .
+1 dexterous someone cooks soup .
+1 dexterous guy makes sauce .
+1 gentleman cooks tasty snack .
+1 skillful guy makes soup .
+0 man prepares useful software .
+1 masterful someone bakes lunch .
+1 teenager roasts flavorful soup .
+0 dexterous person makes code .
+1 skillful person prepares snack .
+1 masterful someone bakes meal .
+1 man prepares delightful snack .
+1 person makes tasty dinner .
+1 teenager cooks delightful supper .
+0 skillful someone prepares software .
+1 masterful guy cooks meal .
+1 dexterous guy bakes soup .
+0 dexterous gentleman troubleshoots software .
+1 someone prepares delightful meal .
+0 someone repairs useful software .
+1 dexterous teenager bakes sauce .
+0 dexterous teenager makes application .
+0 dexterous teenager runs code .
+0 masterful man troubleshoots software .
+1 someone bakes delightful supper .
+1 skillful woman roasts supper .
+0 masterful woman makes application .
+1 skillful guy bakes sauce .
+0 teenager debugs practical code .
+0 person troubleshoots practical code .
+1 dexterous woman cooks chicken .
+1 dexterous gentleman roasts meal .
+1 man cooks flavorful soup .
+0 someone repairs useful program .
+1 woman cooks delightful chicken .
+1 masterful gentleman cooks meal .
+1 someone prepares meal .
+1 masterful woman roasts lunch .
+1 someone cooks supper .
+1 dexterous man makes dinner .
+1 skillful guy roasts dinner .
+1 woman cooks tasty dinner .
+1 someone bakes delightful meal .
+0 person prepares practical code .
+1 woman prepares delightful meal .
+0 skillful person troubleshoots software .
+1 skillful woman makes snack .
+1 masterful guy cooks soup .
+1 someone roasts snack .
+1 masterful gentleman cooks dinner .
+0 person makes helpful program .
+1 woman prepares tasty lunch .
+0 man repairs useful code .
+1 skillful man makes sauce .
+1 guy bakes flavorful supper .
+0 guy runs software .
+0 guy prepares practical application .
+1 dexterous gentleman roasts chicken .
+1 gentleman bakes tasty chicken .
+1 guy roasts flavorful chicken .
+1 woman cooks sauce .
+0 dexterous woman prepares application .
+0 man repairs practical code .
+1 masterful guy bakes snack .
+0 skillful guy makes program .
+1 woman prepares soup .
+1 person makes flavorful meal .
+1 dexterous teenager bakes chicken .
+1 person makes supper .
+0 teenager debugs helpful software .
+1 man makes flavorful meal .
+1 masterful man bakes lunch .
+1 man bakes flavorful soup .
+1 man bakes flavorful dinner .
+1 person prepares flavorful meal .
+0 teenager troubleshoots helpful software .
+1 man prepares flavorful soup .
+0 woman debugs practical code .
+1 skillful man cooks sauce .
+1 guy prepares delightful sauce .
+1 masterful person bakes dinner .
+1 dexterous woman bakes snack .
+1 masterful guy makes chicken .
+0 teenager repairs software .
+1 teenager prepares flavorful dinner .
+1 man roasts tasty supper .
+0 dexterous woman troubleshoots software .
+0 dexterous person prepares software .
+1 dexterous teenager prepares snack .
+0 man prepares helpful software .
+1 someone bakes tasty soup .
+1 gentleman makes lunch .
+1 gentleman makes flavorful meal .
+1 skillful man roasts soup .
+1 masterful gentleman prepares soup .
+1 gentleman makes dinner .
+1 man makes sauce .
+1 teenager roasts delightful soup .
+1 woman cooks tasty sauce .
+1 masterful teenager cooks dinner .
+1 woman bakes flavorful sauce .
+1 masterful person bakes sauce .
+1 masterful man bakes supper .
+1 someone prepares flavorful dinner .
+1 teenager cooks flavorful chicken .
+0 man troubleshoots useful application .
+0 skillful person runs software .
+1 skillful person roasts meal .
+1 teenager makes sauce .
+0 masterful someone repairs application .
+1 dexterous someone cooks chicken .
+1 dexterous woman bakes chicken .
+0 skillful someone makes application .
+0 guy makes helpful application .
+0 guy makes practical code .
+0 woman repairs practical code .
+1 dexterous person cooks sauce .
+1 someone roasts flavorful supper .
+1 dexterous someone prepares snack .
+1 gentleman cooks flavorful soup .
+1 skillful guy roasts supper .
+0 masterful teenager makes application .
+0 someone repairs helpful software .
+1 skillful person bakes lunch .
+1 teenager bakes flavorful lunch .
+0 skillful man prepares program .
+1 teenager prepares tasty snack .
+0 skillful teenager repairs software .
+1 masterful woman roasts chicken .
+0 masterful man runs software .
+1 skillful guy prepares sauce .
+0 guy makes useful program .
+1 masterful man prepares lunch .
+0 gentleman prepares code .
+0 person repairs practical software .
+0 guy debugs practical application .
+1 woman roasts delightful snack .
+1 skillful guy prepares soup .
+1 masterful someone bakes supper .
+1 dexterous someone bakes meal .
+0 guy prepares helpful software .
+0 skillful teenager runs code .
+1 man makes supper .
+1 skillful man bakes sauce .
+0 someone runs helpful application .
+1 skillful man roasts lunch .
+0 skillful guy makes software .
+1 dexterous person bakes snack .
+1 person makes delightful lunch .
+1 masterful guy cooks sauce .
+0 dexterous man prepares program .
+1 man prepares meal .
+0 guy makes program .
+1 dexterous teenager roasts sauce .
+1 someone cooks flavorful lunch .
+1 skillful gentleman roasts snack .
+1 skillful someone bakes sauce .
+0 man repairs useful program .
+0 masterful someone makes software .
+1 skillful guy cooks supper .
+1 masterful woman cooks supper .
+0 someone runs software .
+0 skillful gentleman troubleshoots software .
+1 dexterous gentleman cooks supper .
+1 teenager roasts tasty snack .
+0 teenager runs helpful software .
+1 woman bakes tasty chicken .
+0 masterful guy prepares software .
+1 man bakes tasty supper .
+1 someone cooks flavorful sauce .
+1 teenager roasts supper .
+1 skillful man bakes dinner .
+0 guy prepares practical software .
+0 man prepares useful code .
+1 masterful woman bakes snack .
+1 masterful gentleman cooks lunch .
+1 gentleman bakes delightful supper .
+1 guy bakes chicken .
+1 skillful guy cooks lunch .
+1 masterful gentleman bakes meal .
+0 man runs practical application .
+1 woman makes delightful lunch .
+1 woman prepares dinner .
+1 woman makes sauce .
+1 skillful person cooks chicken .
+0 skillful woman runs code .
+1 woman cooks delightful supper .
+1 someone cooks tasty dinner .
+1 teenager cooks flavorful sauce .
+0 woman runs application .
+0 guy troubleshoots helpful software .
+1 person bakes delightful chicken .
+0 someone debugs practical program .
+1 man prepares flavorful sauce .
+1 person cooks lunch .
+0 woman runs practical program .
+1 woman cooks meal .
+0 woman runs useful software .
+1 man makes tasty sauce .
+1 teenager prepares delightful snack .
+0 woman repairs helpful code .
+1 skillful guy cooks dinner .
+0 man runs program .
+1 teenager bakes delightful soup .
+1 person cooks delightful chicken .
+0 teenager troubleshoots useful software .
+0 masterful guy makes software .
+1 masterful someone cooks soup .
+1 woman bakes delightful sauce .
+1 dexterous man cooks snack .
+1 person makes dinner .
+1 someone bakes tasty dinner .
+1 guy bakes flavorful snack .
+1 skillful woman bakes supper .
+1 skillful someone cooks dinner .
+0 masterful man debugs software .
+1 skillful man makes supper .
+1 guy prepares sauce .
+0 gentleman runs code .
+0 teenager repairs helpful code .
+1 woman roasts tasty snack .
+1 skillful man cooks supper .
+0 person makes practical software .
+0 person troubleshoots useful code .
+0 person prepares code .
+1 dexterous teenager bakes meal .
+1 masterful man bakes soup .
+1 skillful someone roasts sauce .
+1 gentleman bakes tasty dinner .
+0 someone prepares code .
+1 person roasts flavorful soup .
+1 skillful guy bakes snack .
+1 guy cooks flavorful soup .
+1 someone bakes delightful snack .
+1 masterful guy roasts dinner .
+1 dexterous someone roasts dinner .
+1 guy prepares flavorful soup .
+1 person bakes delightful sauce .
+1 skillful someone makes snack .
+0 guy prepares practical program .
+1 man prepares delightful soup .
+0 skillful teenager debugs software .
+0 teenager debugs useful software .
+1 masterful guy bakes dinner .
+1 skillful man roasts snack .
+0 person makes useful program .
+1 skillful gentleman roasts dinner .
+1 someone prepares dinner .
+1 masterful teenager prepares snack .
+0 man troubleshoots practical software .
+1 guy prepares supper .
+0 teenager runs helpful code .
+1 masterful someone roasts supper .
+1 skillful gentleman cooks supper .
+0 masterful someone runs program .
+1 woman roasts delightful dinner .
+1 dexterous guy cooks meal .
+1 woman cooks flavorful dinner .
+1 skillful person cooks meal .
+1 dexterous teenager cooks soup .
+0 skillful man debugs software .
+1 skillful person roasts dinner .
+1 someone roasts tasty snack .
+1 woman makes delightful supper .
+1 masterful woman cooks dinner .
+1 someone bakes soup .
+1 skillful woman bakes dinner .
+0 skillful teenager runs program .
+0 man makes practical program .
+0 skillful teenager runs software .
+1 man makes flavorful chicken .
+1 dexterous woman cooks sauce .
+1 man cooks supper .
+1 guy bakes delightful sauce .
+0 guy prepares practical code .
+1 gentleman prepares flavorful snack .
+0 teenager repairs helpful program .
+1 someone cooks flavorful dinner .
+0 woman runs code .
+1 person cooks snack .
+1 woman bakes dinner .
+0 skillful person prepares application .
+1 woman bakes lunch .
+0 guy makes software .
+1 skillful person prepares meal .
+1 gentleman prepares supper .
+1 woman cooks tasty meal .
+1 masterful guy prepares supper .
+1 skillful woman cooks soup .
+1 someone bakes flavorful supper .
+0 guy debugs useful application .
+1 someone roasts flavorful chicken .
+1 someone roasts delightful dinner .
+0 dexterous guy prepares code .
+1 masterful gentleman roasts snack .
+0 teenager debugs useful application .
+0 masterful someone runs software .
+0 dexterous gentleman makes program .
+1 gentleman makes chicken .
+1 person makes flavorful lunch .
+0 masterful man prepares software .
+1 someone cooks chicken .
+1 guy roasts tasty meal .
+1 skillful teenager cooks lunch .
+1 dexterous gentleman cooks chicken .
+0 skillful gentleman makes program .
+1 skillful someone cooks sauce .
+1 man prepares tasty meal .
+1 someone bakes flavorful chicken .
+1 skillful gentleman prepares dinner .
+1 man roasts soup .
+0 dexterous someone runs code .
+1 woman cooks tasty soup .
+1 man makes flavorful soup .
+1 masterful person bakes snack .
+1 person roasts lunch .
+1 man roasts tasty soup .
+0 dexterous gentleman prepares program .
+1 teenager cooks lunch .
+0 masterful person repairs program .
+1 gentleman bakes delightful dinner .
+1 guy prepares delightful soup .
+0 man runs application .
+0 skillful teenager prepares software .
+0 gentleman makes practical application .
+1 skillful woman bakes lunch .
+0 woman runs practical software .
+0 guy debugs helpful program .
+1 dexterous someone roasts supper .
+1 dexterous guy makes lunch .
+1 teenager cooks delightful chicken .
+1 someone roasts delightful snack .
+1 masterful gentleman bakes soup .
+1 dexterous woman bakes sauce .
+1 person bakes supper .
+1 teenager cooks chicken .
+0 man makes useful code .
+1 person cooks delightful soup .
+1 dexterous person bakes chicken .
+0 man makes helpful program .
+1 masterful person makes chicken .
+1 teenager bakes delightful supper .
+1 masterful teenager roasts dinner .
+1 someone roasts tasty meal .
+1 teenager roasts meal .
+0 man troubleshoots helpful software .
+1 woman roasts supper .
+1 skillful man bakes snack .
+1 dexterous gentleman cooks snack .
+1 teenager makes dinner .
+0 teenager runs useful application .
+1 dexterous person prepares chicken .
+0 guy prepares program .
+0 dexterous gentleman repairs software .
+1 gentleman bakes delightful chicken .
+1 masterful teenager bakes lunch .
+1 dexterous gentleman bakes chicken .
+0 teenager repairs helpful application .
+1 someone bakes delightful dinner .
+1 guy bakes tasty lunch .
+1 skillful gentleman makes sauce .
+1 teenager makes lunch .
+1 guy makes flavorful soup .
+0 dexterous teenager makes software .
+1 man bakes delightful soup .
+1 someone bakes delightful sauce .
+0 guy prepares useful application .
+1 woman makes chicken .
+1 someone roasts tasty dinner .
+1 dexterous woman cooks soup .
+1 person cooks flavorful supper .
+0 teenager prepares code .
+1 masterful guy bakes sauce .
+1 someone cooks flavorful soup .
+1 someone cooks delightful snack .
+0 someone troubleshoots useful application .
+0 masterful woman debugs software .
+1 teenager prepares supper .
+1 gentleman makes delightful chicken .
+0 guy debugs useful code .
+0 man runs software .
+1 woman roasts flavorful dinner .
+1 guy bakes tasty chicken .
+1 guy bakes sauce .
+1 skillful person bakes sauce .
+1 masterful person bakes lunch .
+1 someone prepares delightful lunch .
+0 skillful man makes program .
+1 masterful person makes meal .
+1 someone makes tasty lunch .
+1 man bakes soup .
+1 skillful teenager prepares meal .
+1 someone bakes tasty snack .
+1 man prepares supper .
+0 man prepares software .
+1 masterful someone prepares snack .
+0 skillful man makes code .
+1 masterful someone roasts chicken .
+1 skillful gentleman cooks dinner .
+1 masterful teenager bakes chicken .
+1 skillful gentleman bakes meal .
+1 teenager makes flavorful lunch .
+0 person runs practical program .
+1 masterful gentleman prepares dinner .
+0 someone repairs practical software .
+1 gentleman bakes delightful meal .
+0 skillful guy prepares software .
+1 skillful man cooks chicken .
+0 someone troubleshoots useful code .
+1 dexterous person roasts sauce .
+1 person makes delightful chicken .
+1 dexterous person roasts meal .
+1 gentleman prepares tasty snack .
+1 skillful man bakes lunch .
+1 man roasts flavorful chicken .
+1 woman roasts flavorful meal .
+1 dexterous person cooks chicken .
+1 dexterous person prepares meal .
+1 teenager bakes tasty snack .
+0 man prepares helpful program .
+1 masterful gentleman roasts lunch .
+1 person makes lunch .
+1 skillful someone bakes chicken .
+1 masterful man makes supper .
+1 dexterous man prepares sauce .

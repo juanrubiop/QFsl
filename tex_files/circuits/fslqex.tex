@@ -1,0 +1,18 @@
+\begin{figure}[H]
+    \centering
+    \caption{FSL scheme in a circuit}
+    \begin{quantikz}
+        \lstick[2]{Noun 2}\ket{0}&\gate[2]{PQE(\{\boldsymbol{\phi}\}_1)}\slice[label style={inner sep=1pt,anchor=south west,rotate=40,yshift=0.3cm}]{PQE layers} &\gate[2]{W_N(\{\boldsymbol{\beta}\})} \slice[label style={inner sep=1pt,anchor=south west,rotate=40,yshift=0.3cm}]{Trainable Layers}& \ctrl{2} \gategroup[4,steps=3,style={dashed,xshift=0.2cm,yshift=0.2cm}]{Post Processing} & & \meter{0}\\
+        \ket{0}& & & &\ctrl{2} & \meter{0}\\
+        \lstick[5]{Verb}\ket{0}&\gate[5]{PQE(\{\boldsymbol{\phi}\}_2)}&\gate[5]{W_T(\{\boldsymbol{\alpha}\})} & \targ{} & & \meter{0}\\
+        \ket{0}& & &  \linethrough &\targ{}&\meter{0}\\
+        \ket{0}& & & & & & & &\rstick[2,label style={rotate=90,yshift=-0.4cm,xshift=-3cm}]{Sentence Meaning as Quantum State}\\
+        \ket{0}& & & \ctrl{2}\gategroup[4,steps=3,style={dashed,xshift=0.2cm,yshift=0.2cm},label style={label
+position=below,yshift=-0.55cm}]{Post Processing}& & \meter{0}\\
+       \ket{0}& & & & \ctrl{2}& \meter{0}\\
+         \lstick[2]{Noun 1}\ket{0}& \gate[2]{PQE(\{\boldsymbol{\phi}\}_3)}&\gate[2]{W_N(\{\boldsymbol{\beta}\})} & \targ{}& & \meter{0}\\
+        \ket{0}& & & & \targ{} & \meter{0} 
+    \end{quantikz}
+    \label{circ:fslex}
+\end{figure}
+%\vqw{x}

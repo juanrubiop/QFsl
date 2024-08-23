@@ -1,0 +1,30 @@
+\chapter{On Approximate Amplitude Encoding} \label{app:aae}
+
+Another technique that, as of the moment of writing, has not been tried in QNLP and could be promising is approximate amplitude encoding.
+
+A few techniques exist when trying to encode classical data into a quantum state: basis encoding \cite{li_efficient_2023}, angle encoding \cite{ovalle-magallanes_quantum_2023}, and ansatz encoding, to name a few.
+
+Amplitude encoding maps some classical vector $\Vec{a}=[a_0,a_1,...,a_n]$ into the amplitudes of some quantum state: $|\Psi \rangle = a_0| 0 \rangle + a_1 | 1 \rangle +...+a_n|n\rangle$ \cite{larose_robust_2020}. For example, if we wanted to encode the vector $\Vec{a}=[\frac{1}{\sqrt{3}},0,\frac{1}{\sqrt{3}},-\frac{1}{\sqrt{3}}]$, the appropriate state would be $|\Psi \rangle = \frac{1}{\sqrt{3}}| 00 \rangle + 0 | 01 \rangle +\frac{1}{\sqrt{3}}|10\rangle-\frac{1}{\sqrt{3}}|11\rangle$. 
+
+It is straightforward to see how amplitude encoding would translate to applications in QNLP. Obtaining the inner product of two classical vector embeddings would be equivalent to obtaining the projection of one word state into another. Considering that a quantum state can be completely determined by the vector containing the coefficients of its basis states, the tensor product between two states corresponds to the tensor product of these two amplitude vectors. So encoding the word embedding into the amplitude of the quantum state would be the natural way to encode the word states learned through classical DisCoCat.
+
+However, this beckons the same age-old story about gate cost for ideal Unitary maps. Approximate Amplitude Encoding (AAE) was developed \cite{nakaji_approximate_2022} to variationally encode real-value vectors into the amplitude of a quantum state. Since the measurements of a quantum state can only be real and positive, the technique to encode a real value is not so straightforward.
+
+The trick is to linearly split the data into its real and negative components $| \text{Data} \rangle = | \text{Data}^+ \rangle + | \text{Data}^- \rangle$, and defining the quantum state using an ancillary qubit
+\begin{align}\label{eq:aaetrick}
+    | \Psi \rangle = | \text{Data}^+ \rangle|0\rangle + | \text{Data}^- \rangle|1\rangle.
+\end{align}
+After applying a Hadamard transform on the ancillary qubit:
+\begin{align}
+    |\Psi \rangle  = \frac{| \text{Data}^+ \rangle - | \text{Data}^- \rangle}{\sqrt{2}}|0\rangle + \frac{| \text{Data}^+ \rangle + | \text{Data}^- \rangle}{\sqrt{2}}|1\rangle
+\end{align}
+
+Post-selecting the ancillary qubit to be $|1\rangle$, we can be sure the remaining state is the state with the negative values encoded in the amplitude.
+
+This methodology can be extended to apply to variational algorithms to train PQCs to output the approximately encoded classical state to arbitrary accuracy.
+
+Further refinement was done in \cite{mitsuda_approximate_2023} to allow for the encoding of complex data.
+
+Considering that variationally using AAE to encode the word embedding would still be susceptible to the problems described in chapter \ref{chap:Problem}, most importantly the exclusion of OOV words. Here would lie another application for FSL in QNLP, since we could use FSL to extend the power to AAE to generalise to OOV words, and all the training could be directly imported from the classical version of DisCoCat.
+
+

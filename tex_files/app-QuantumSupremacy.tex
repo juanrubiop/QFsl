@@ -1,0 +1,23 @@
+\chapter{On Quantum Supremacy in the NISQ Era} \label{app:QuantumSip}
+
+Quantum supremacy is a tricky thing to define. Broadly, we can define quantum supremacy as a point in development when a quantum computer can perform a task that a classical system cannot, effectively refuting the extended Church-Turing thesis \cite{harrow_quantum_2017}. The Church-Turing thesis states that we can efficiently simulate (i.e. in polynomial time) any model of computation on a turning machine  \cite{kliesch_dissipative_2011}. We can see glimpses of this in Feynman's original call to construct a quantum machine to simulate a reality that is quantum.
+
+As mentioned in section \ref{sec:QPC,HPC}, quantum algorithms have been developed that can take advantage of the current state of computation. However, this does not necessarily satisfy the select few of the field that would be content only with a real implementation of quantum supremacy. But even though this has already been achieved in 2019 when a team from Google efficiently sampled a quantum circuit in 200 seconds when an equivalent classical problem would have taken 10,000 years \cite{arute_quantum_2019}, this is a toy problem designed to give the quantum computer the biggest advantage.
+
+Even for practical problems in which quantum advantage could have been assumed to have been achieved, like Shor's factorization algorithm, this isn't the case, since the classical adversary is just the current state of the art, not a provably best-case scenario. The notion of advantage has to be altered from the proof-centric traditional mathematical sense, to be useful in the NISQ era. A more flexible definition could take into account not only the problems of interest but also what current classical and quantum devices could achieve.
+
+To this end, reference \cite{hibat-allah_framework_2024} defines Practical Quantum Advantage (PQA) to be the ability of a quantum computer to perform some useful task in some way better than a classical processor could. This opens the definition to a lot of flexibility and qualitativeness and yet allows for practical demonstrations and proofs.
+
+This definition is further subdivided into more specific terms, with the two most relevant for the conversations being Provable PQA (PrPQA) and Robust PQA (RPQA). The first one encapsulates the traditional notion of advantage, where a mathematical proof has to be given and so is robust and impervious to any improvement in the algorithms or the systems. RPQA, in turn, has under its umbrella most of the traditional notions of quantum supremacy, where a quantum system is currently outperforming its classical adversary, but this could change if a new classical algorithm is developed.
+
+Quantum advantage, even in noisy systems, was demonstrated in 2017 \cite{riste_demonstration_2017}, and in 2022, researchers at Terra Quantum showed a quantum advantage in traditional ML tasks such as regression, optimisation, and classification, with the advantage coming in both speed and accuracy \cite{perelshtein_practical_2022}. However, these are just examples of RPQA, since they do not contain complexity arguments and are just comparing with the state of the art.
+
+As with the original algorithms developed by Shor and Deutsch, most of the advantage in QML comes from using processes which are known the be advantageously run on quantum systems. For example, in \cite{yamasaki_advantage_2023} it was proven that a family of tasks can be constructed that can be run in polynomial time only on quantum systems.
+
+Finally, it is important to briefly mention simulation in the NISQ era, as it is that objective which inspired Feynman in the first place. A review of the state of the art in \cite{daley_practical_2022} claims that current methods already show quantum advantage in analogue systems, where the quantum system is directly encoded in the quantum circuit.
+
+
+The NISQ era brings with it the need to redefine traditional concepts of advantage to be able to gauge the improvement of quantum systems. Quantum systems are not the only entities susceptible to noise, as advantage and supremacy have also been changed in the search for improvement and, one day, complete quantum advantage.
+
+
+%probablemente valga la pena poner cosas de simulating quantum systems.

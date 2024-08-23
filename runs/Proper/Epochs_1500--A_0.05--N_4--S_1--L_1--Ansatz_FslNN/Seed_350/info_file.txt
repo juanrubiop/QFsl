@@ -1,0 +1,23 @@
+Task: Meaning classification
+Classical Embeddings: GloVe 300-d Common Crawl
+    Parsing: True
+    Rewritign: Remove Cups
+    Ansatz: FslNN
+    Layers: 1
+    Map: [N:4, S:1]
+    Model: Numpy
+    Backend: None
+    Trainer: Quantum Trainer
+    Loss function: BindaryCrosEntropyLoss
+    Accuracy function: lambda y_hat, y: np.sum(np.round(y_hat) == y) / len(y) / 2
+    Optimizer: SPSA optimizer
+    Epochs: 1500
+    Batch size: 700
+    Seed: 350
+    Hyperparams: [a:0.05,c:0.06,A:0.1*Epochs]
+    Test accuracy: 0.7917485265225933
+    Test accuracy best model: 0.7996070726915521
+    OOV test accuracy: 0.7534246575342466
+    OOV test accuracy best model: 0.8356164383561644
+    Redundant test accuarcy: 0.7387173396674585
+    Redundant test accuracy best model: 0.7759303246239113

@@ -1,0 +1,1263 @@
+1 skillful person grills feast .
+0 lady debugs interesting software .
+1 individual cooks delicious dinner .
+0 adept woman runs application .
+1 man completes sauce .
+0 person completes interesting software .
+1 boy cooks tasty feast .
+1 man bakes tasty dinner .
+0 woman debugs interesting tool .
+0 lady executes interesting software .
+0 boy executes software .
+0 woman executes useful algorithm .
+1 woman prepares delicious feast .
+1 boy grills tasty feast .
+0 adept lady fixes application .
+1 boy cooks tasty noodles .
+1 skillful boy grills meal .
+0 individual completes software .
+1 boy cooks dinner .
+1 adept lady grills meal .
+0 skillful person prepares software .
+0 boy fixes useful tool .
+0 woman fixes tool .
+1 lady cooks delicious sauce .
+1 skillful lady grills meal .
+0 woman fixes useful software .
+0 man executes interesting application .
+1 woman completes meal .
+1 skillful man bakes meal .
+1 skillful person bakes dinner .
+0 adept person runs tool .
+1 adept individual bakes sauce .
+1 man completes delicious feast .
+1 individual prepares tasty meal .
+1 boy prepares sauce .
+1 adept man bakes breakfast .
+0 boy executes interesting application .
+1 skillful individual cooks sauce .
+0 boy debugs interesting application .
+1 skillful boy bakes feast .
+1 person grills tasty noodles .
+1 boy prepares delicious meal .
+0 woman runs useful algorithm .
+1 individual completes dinner .
+0 individual prepares interesting algorithm .
+0 lady runs tool .
+0 man debugs useful software .
+0 man prepares software .
+1 adept boy bakes dinner .
+1 adept man grills breakfast .
+1 person prepares delicious sauce .
+1 boy grills delicious noodles .
+1 boy cooks tasty sauce .
+0 boy runs program .
+0 lady runs useful program .
+1 adept lady grills sauce .
+1 boy bakes tasty breakfast .
+1 adept lady bakes dinner .
+0 person fixes useful algorithm .
+0 person debugs useful software .
+0 lady fixes useful application .
+0 person prepares useful tool .
+0 person runs application .
+0 adept person prepares program .
+0 person fixes useful software .
+1 individual bakes feast .
+1 adept woman grills breakfast .
+1 person grills breakfast .
+0 adept person fixes program .
+1 skillful lady cooks noodles .
+0 skillful individual completes application .
+0 individual prepares interesting tool .
+0 individual executes interesting application .
+0 person runs tool .
+1 woman completes delicious meal .
+1 man cooks feast .
+1 person prepares delicious breakfast .
+0 person executes interesting application .
+0 skillful individual prepares tool .
+0 man executes useful application .
+0 person completes interesting program .
+1 skillful boy cooks noodles .
+0 woman runs interesting tool .
+1 man bakes delicious breakfast .
+0 skillful lady runs algorithm .
+0 person prepares useful application .
+0 skillful boy prepares program .
+1 skillful lady bakes sauce .
+0 adept man debugs tool .
+1 adept boy grills feast .
+1 boy bakes tasty noodles .
+0 boy completes useful program .
+0 individual executes useful algorithm .
+0 person debugs interesting tool .
+0 individual prepares interesting software .
+1 skillful woman grills dinner .
+1 lady bakes breakfast .
+0 woman prepares algorithm .
+0 individual prepares tool .
+1 person cooks breakfast .
+1 skillful man completes noodles .
+0 adept lady completes software .
+0 adept lady executes software .
+1 individual grills tasty noodles .
+0 woman runs interesting algorithm .
+1 adept individual cooks sauce .
+1 adept woman bakes breakfast .
+0 lady debugs useful software .
+0 skillful person fixes software .
+1 adept boy grills meal .
+0 adept woman runs algorithm .
+1 person completes delicious sauce .
+0 adept person debugs software .
+1 person completes delicious feast .
+1 boy prepares tasty feast .
+1 woman cooks tasty dinner .
+0 skillful woman fixes tool .
+1 boy cooks delicious sauce .
+0 skillful woman prepares application .
+0 skillful person completes tool .
+1 adept boy bakes meal .
+1 individual cooks tasty dinner .
+1 boy completes feast .
+1 lady cooks delicious meal .
+0 adept man fixes tool .
+1 woman cooks dinner .
+1 boy completes tasty sauce .
+0 adept woman debugs application .
+1 lady bakes tasty dinner .
+1 adept boy bakes sauce .
+0 woman executes interesting algorithm .
+1 adept lady completes feast .
+1 individual prepares tasty breakfast .
+0 boy debugs interesting algorithm .
+0 person prepares interesting application .
+0 adept woman runs tool .
+0 man fixes interesting tool .
+1 adept woman cooks breakfast .
+1 person grills delicious noodles .
+0 person debugs useful algorithm .
+1 adept lady prepares meal .
+0 skillful lady fixes application .
+1 skillful boy cooks breakfast .
+1 lady cooks noodles .
+1 individual prepares breakfast .
+1 skillful lady grills sauce .
+0 skillful lady prepares tool .
+0 woman runs useful program .
+1 man completes tasty meal .
+0 boy runs application .
+0 man runs software .
+1 skillful boy grills feast .
+1 boy bakes delicious sauce .
+1 adept man completes sauce .
+1 skillful boy completes dinner .
+0 boy debugs useful application .
+0 adept lady runs tool .
+1 person grills delicious meal .
+0 skillful boy prepares algorithm .
+1 woman bakes delicious meal .
+0 lady fixes useful program .
+1 skillful individual grills breakfast .
+1 skillful person completes feast .
+0 skillful man debugs tool .
+1 skillful individual grills sauce .
+0 adept person debugs tool .
+1 individual prepares delicious dinner .
+1 individual completes tasty meal .
+0 adept lady runs application .
+1 individual prepares tasty noodles .
+0 skillful man completes tool .
+0 adept person prepares software .
+0 adept man runs tool .
+1 skillful lady cooks sauce .
+0 skillful woman fixes software .
+1 individual cooks tasty noodles .
+0 man fixes interesting program .
+1 adept boy prepares breakfast .
+0 individual completes program .
+0 lady completes useful application .
+1 boy bakes delicious meal .
+1 adept lady cooks noodles .
+0 person fixes interesting application .
+0 man prepares useful application .
+1 skillful person bakes breakfast .
+1 adept man prepares breakfast .
+1 adept person grills noodles .
+0 person completes useful software .
+1 skillful individual bakes dinner .
+1 lady grills delicious dinner .
+1 skillful individual bakes breakfast .
+0 skillful lady executes algorithm .
+0 boy fixes useful software .
+0 woman completes tool .
+1 adept individual grills noodles .
+1 lady prepares sauce .
+0 adept individual prepares application .
+1 skillful lady prepares feast .
+1 skillful lady completes meal .
+0 person completes useful program .
+0 lady prepares useful application .
+1 skillful person grills dinner .
+1 person prepares tasty noodles .
+1 skillful woman cooks dinner .
+0 adept man fixes software .
+0 woman debugs useful program .
+1 skillful man cooks feast .
+1 skillful lady bakes dinner .
+0 woman completes algorithm .
+0 adept lady fixes software .
+0 boy completes interesting program .
+0 woman runs interesting application .
+0 man debugs interesting program .
+1 adept lady prepares feast .
+0 person debugs interesting application .
+1 lady completes noodles .
+1 individual completes delicious meal .
+1 boy bakes tasty meal .
+0 adept boy prepares program .
+1 woman bakes delicious breakfast .
+0 boy fixes software .
+1 skillful lady grills feast .
+1 lady cooks tasty noodles .
+1 woman cooks tasty sauce .
+0 woman debugs interesting program .
+0 man runs algorithm .
+1 woman cooks tasty feast .
+1 man grills delicious dinner .
+1 skillful individual cooks feast .
+0 person runs algorithm .
+1 person cooks meal .
+1 lady bakes delicious dinner .
+0 skillful lady executes program .
+1 lady completes tasty feast .
+1 man grills tasty noodles .
+1 person prepares tasty feast .
+1 skillful lady completes feast .
+1 adept man cooks breakfast .
+0 adept woman executes program .
+1 woman completes delicious dinner .
+0 adept lady completes application .
+1 person prepares delicious noodles .
+0 boy debugs useful algorithm .
+1 adept individual cooks feast .
+0 woman executes software .
+0 woman prepares interesting application .
+1 skillful boy bakes sauce .
+1 skillful man completes sauce .
+0 adept woman fixes tool .
+1 skillful man grills feast .
+1 man grills tasty breakfast .
+1 woman grills noodles .
+1 lady cooks delicious feast .
+0 adept woman executes algorithm .
+1 lady cooks tasty dinner .
+1 skillful boy completes sauce .
+0 person runs useful application .
+1 skillful boy completes breakfast .
+0 individual prepares useful program .
+0 man runs program .
+0 skillful boy completes algorithm .
+1 man grills delicious breakfast .
+1 skillful man bakes breakfast .
+0 boy prepares interesting program .
+1 person completes tasty dinner .
+1 adept person bakes noodles .
+1 adept person prepares meal .
+1 man completes tasty sauce .
+1 woman bakes delicious noodles .
+1 skillful person bakes feast .
+0 adept person runs software .
+1 adept man grills feast .
+0 man fixes tool .
+1 woman prepares tasty breakfast .
+0 skillful boy completes program .
+1 lady bakes delicious noodles .
+0 skillful man runs software .
+0 individual completes interesting tool .
+1 adept man grills meal .
+1 individual completes tasty dinner .
+0 adept person fixes algorithm .
+1 skillful woman bakes meal .
+1 person bakes meal .
+0 man prepares interesting software .
+1 boy cooks meal .
+1 woman cooks noodles .
+1 woman cooks sauce .
+0 boy fixes interesting application .
+0 person debugs useful program .
+0 woman debugs tool .
+1 boy cooks sauce .
+0 adept individual executes software .
+1 skillful individual completes feast .
+1 lady completes tasty meal .
+1 skillful person cooks noodles .
+1 skillful person completes noodles .
+1 lady completes breakfast .
+1 man bakes delicious noodles .
+1 man prepares tasty meal .
+0 person prepares program .
+0 boy completes useful tool .
+1 skillful lady grills breakfast .
+1 lady completes meal .
+1 adept person prepares sauce .
+0 woman debugs useful software .
+0 skillful woman completes application .
+1 lady grills dinner .
+1 woman grills tasty noodles .
+1 woman grills breakfast .
+1 adept boy bakes feast .
+0 person fixes useful tool .
+1 lady bakes delicious meal .
+0 individual completes tool .
+0 lady fixes software .
+0 skillful lady fixes software .
+1 adept boy cooks dinner .
+1 boy prepares dinner .
+1 lady grills tasty meal .
+0 skillful man prepares software .
+1 adept lady cooks sauce .
+1 woman bakes delicious sauce .
+0 individual completes algorithm .
+1 boy cooks delicious noodles .
+1 person cooks tasty sauce .
+0 skillful lady fixes tool .
+1 man grills tasty feast .
+1 skillful woman cooks sauce .
+0 adept lady runs program .
+1 adept boy completes sauce .
+1 adept boy prepares sauce .
+0 boy debugs interesting software .
+0 skillful boy debugs tool .
+0 man debugs useful algorithm .
+0 person debugs useful tool .
+0 man fixes interesting algorithm .
+0 boy fixes interesting tool .
+0 adept boy fixes software .
+1 adept woman completes feast .
+0 boy prepares useful tool .
+0 lady executes interesting tool .
+1 adept man cooks meal .
+0 adept person prepares application .
+1 skillful person bakes noodles .
+0 woman executes useful application .
+0 skillful woman debugs software .
+1 person completes tasty meal .
+0 skillful person runs software .
+1 skillful lady bakes noodles .
+1 skillful woman bakes breakfast .
+0 skillful boy fixes tool .
+1 adept lady bakes noodles .
+1 adept woman bakes dinner .
+1 person completes delicious meal .
+1 person bakes tasty sauce .
+1 person grills dinner .
+1 lady grills delicious noodles .
+0 individual fixes interesting software .
+1 skillful woman grills noodles .
+1 skillful boy bakes dinner .
+0 lady completes program .
+0 woman runs useful tool .
+1 person completes delicious dinner .
+0 adept person completes program .
+1 woman completes noodles .
+0 boy fixes useful application .
+1 skillful man grills sauce .
+0 woman fixes interesting program .
+0 skillful boy completes tool .
+1 woman completes sauce .
+0 woman debugs useful algorithm .
+0 skillful woman prepares software .
+0 adept boy executes software .
+1 boy completes delicious feast .
+1 woman bakes tasty feast .
+0 skillful person fixes program .
+1 person grills tasty sauce .
+1 man completes tasty noodles .
+1 boy grills tasty breakfast .
+1 boy cooks delicious meal .
+1 adept individual prepares meal .
+0 boy debugs useful tool .
+1 man grills tasty sauce .
+0 man completes useful tool .
+1 person bakes delicious noodles .
+1 woman grills delicious feast .
+0 lady runs algorithm .
+1 lady prepares delicious dinner .
+1 individual completes breakfast .
+0 lady completes software .
+1 lady bakes delicious sauce .
+1 skillful boy prepares sauce .
+1 boy bakes tasty sauce .
+1 person cooks delicious breakfast .
+0 lady executes useful program .
+0 skillful boy debugs software .
+0 woman fixes interesting algorithm .
+1 individual cooks tasty sauce .
+0 lady runs application .
+0 lady prepares tool .
+1 person prepares tasty meal .
+1 adept boy cooks feast .
+1 lady grills delicious feast .
+0 individual executes interesting algorithm .
+0 person fixes interesting algorithm .
+1 lady grills tasty sauce .
+1 man bakes tasty breakfast .
+1 person grills delicious sauce .
+1 adept person grills breakfast .
+1 skillful person grills noodles .
+0 man fixes useful tool .
+1 adept woman bakes meal .
+0 boy fixes tool .
+1 lady prepares tasty meal .
+0 skillful boy runs software .
+1 individual grills delicious sauce .
+0 man prepares useful algorithm .
+0 person executes interesting algorithm .
+0 adept individual completes tool .
+0 lady fixes interesting software .
+0 man runs application .
+0 skillful boy prepares software .
+0 lady executes software .
+1 woman completes delicious breakfast .
+1 skillful individual completes meal .
+1 woman prepares noodles .
+0 adept person completes algorithm .
+0 adept man runs software .
+1 adept woman completes meal .
+0 individual fixes interesting algorithm .
+1 skillful person prepares noodles .
+1 adept man bakes sauce .
+1 person grills meal .
+1 woman cooks feast .
+1 skillful individual prepares sauce .
+1 person grills tasty meal .
+1 skillful boy cooks meal .
+1 skillful individual cooks noodles .
+1 skillful woman completes feast .
+1 lady cooks delicious dinner .
+0 skillful boy executes software .
+0 lady runs interesting tool .
+1 woman cooks delicious meal .
+0 skillful man fixes tool .
+1 skillful individual completes sauce .
+0 lady executes interesting application .
+0 lady runs useful application .
+1 lady prepares delicious breakfast .
+0 skillful person debugs software .
+0 man completes useful application .
+0 individual executes program .
+0 boy debugs useful program .
+0 lady runs interesting application .
+0 adept lady runs algorithm .
+1 woman completes tasty breakfast .
+0 adept man executes software .
+1 woman prepares feast .
+0 person executes useful application .
+1 woman grills tasty feast .
+1 woman completes tasty dinner .
+1 boy completes meal .
+0 adept individual completes program .
+0 person completes useful application .
+1 adept individual completes sauce .
+1 adept woman grills noodles .
+1 adept boy prepares dinner .
+1 boy prepares tasty meal .
+0 adept boy runs software .
+0 adept person fixes software .
+1 individual cooks sauce .
+1 adept person grills sauce .
+1 boy bakes tasty feast .
+0 adept person prepares tool .
+0 skillful person debugs tool .
+1 adept woman bakes sauce .
+1 woman prepares tasty dinner .
+0 adept lady completes tool .
+1 skillful boy bakes meal .
+1 individual completes delicious sauce .
+0 adept lady executes tool .
+1 adept man cooks sauce .
+1 person prepares tasty dinner .
+1 skillful lady cooks breakfast .
+1 lady prepares tasty breakfast .
+0 man prepares interesting program .
+1 skillful individual bakes feast .
+1 man cooks meal .
+0 adept man completes tool .
+1 skillful woman cooks breakfast .
+1 individual prepares delicious meal .
+1 lady bakes meal .
+0 man executes application .
+0 skillful woman fixes application .
+0 adept woman executes tool .
+1 boy grills tasty noodles .
+0 adept boy prepares tool .
+1 lady bakes tasty noodles .
+1 lady prepares noodles .
+1 man prepares tasty sauce .
+0 man fixes useful application .
+1 man cooks delicious meal .
+1 person completes tasty sauce .
+1 adept boy grills sauce .
+1 adept person cooks feast .
+0 woman executes useful program .
+1 skillful man prepares dinner .
+0 man executes program .
+0 woman runs useful software .
+1 man completes breakfast .
+1 lady bakes tasty feast .
+1 adept lady cooks dinner .
+0 man debugs interesting tool .
+1 adept lady completes meal .
+1 skillful man grills breakfast .
+1 woman bakes tasty dinner .
+1 man cooks dinner .
+1 lady cooks tasty meal .
+0 woman debugs software .
+1 person cooks tasty dinner .
+1 lady grills tasty noodles .
+1 woman prepares meal .
+1 adept woman grills feast .
+1 man cooks tasty feast .
+1 skillful boy grills breakfast .
+0 adept lady fixes tool .
+0 boy executes program .
+0 adept person completes tool .
+1 adept person bakes sauce .
+0 boy completes interesting software .
+1 boy prepares feast .
+1 woman bakes tasty breakfast .
+1 man grills delicious noodles .
+1 boy completes delicious noodles .
+1 boy bakes noodles .
+1 adept individual prepares feast .
+0 adept lady executes algorithm .
+0 adept lady prepares application .
+0 adept individual prepares program .
+0 lady executes interesting program .
+1 individual prepares delicious noodles .
+1 woman completes delicious feast .
+0 skillful individual prepares software .
+1 skillful lady prepares meal .
+1 person cooks noodles .
+0 man debugs useful application .
+1 lady cooks sauce .
+1 individual completes tasty sauce .
+0 person completes interesting tool .
+1 boy prepares noodles .
+0 adept woman completes software .
+0 skillful man debugs software .
+1 adept boy bakes noodles .
+1 man completes meal .
+0 lady fixes interesting algorithm .
+0 skillful lady executes tool .
+0 man completes tool .
+1 woman cooks tasty noodles .
+0 individual prepares interesting program .
+1 adept person grills meal .
+1 boy grills delicious breakfast .
+1 individual grills delicious noodles .
+1 lady cooks delicious breakfast .
+1 individual prepares delicious breakfast .
+0 individual prepares algorithm .
+0 individual completes interesting application .
+0 skillful lady prepares software .
+1 lady cooks tasty breakfast .
+1 person prepares tasty breakfast .
+1 lady grills delicious breakfast .
+0 lady runs program .
+0 person prepares interesting tool .
+1 lady completes sauce .
+1 lady grills noodles .
+1 man cooks delicious noodles .
+1 man cooks tasty meal .
+1 adept lady bakes feast .
+1 lady grills meal .
+0 skillful lady completes software .
+0 individual completes useful software .
+1 adept individual grills breakfast .
+0 skillful person debugs algorithm .
+1 individual bakes breakfast .
+1 skillful individual prepares meal .
+1 man cooks sauce .
+1 adept lady grills dinner .
+0 woman debugs interesting software .
+0 skillful woman executes algorithm .
+0 adept woman prepares software .
+1 adept individual bakes meal .
+0 skillful boy prepares tool .
+1 boy prepares breakfast .
+1 lady prepares meal .
+1 man prepares tasty noodles .
+1 lady grills feast .
+0 boy prepares interesting software .
+1 boy cooks noodles .
+0 adept lady prepares software .
+1 boy bakes delicious feast .
+1 individual cooks delicious sauce .
+1 man completes delicious noodles .
+0 boy runs interesting application .
+0 adept person completes application .
+0 skillful lady runs application .
+0 lady fixes interesting application .
+0 woman executes interesting tool .
+1 boy completes sauce .
+0 individual prepares useful application .
+1 adept man completes breakfast .
+0 lady completes algorithm .
+1 man completes noodles .
+1 woman grills delicious meal .
+1 individual completes delicious noodles .
+1 woman bakes noodles .
+0 boy runs useful application .
+0 boy runs software .
+1 boy prepares tasty sauce .
+1 woman cooks delicious sauce .
+0 person debugs software .
+1 person prepares delicious feast .
+0 adept person executes tool .
+1 skillful man bakes feast .
+1 lady bakes noodles .
+0 woman debugs useful tool .
+0 individual prepares interesting application .
+0 skillful woman runs algorithm .
+1 adept boy cooks noodles .
+1 skillful individual prepares noodles .
+0 adept man prepares tool .
+1 skillful individual grills feast .
+1 man completes delicious meal .
+0 person prepares interesting program .
+1 lady prepares delicious feast .
+0 woman completes interesting application .
+0 individual completes interesting algorithm .
+0 boy prepares software .
+1 individual completes tasty feast .
+1 skillful boy grills dinner .
+1 boy completes tasty feast .
+0 adept boy debugs tool .
+0 adept woman prepares tool .
+0 lady prepares interesting application .
+0 boy completes tool .
+1 woman grills delicious dinner .
+0 person debugs interesting software .
+1 person bakes breakfast .
+1 lady grills breakfast .
+1 woman prepares tasty feast .
+1 person cooks delicious sauce .
+0 person fixes software .
+0 skillful woman runs software .
+1 adept individual completes noodles .
+1 man completes dinner .
+1 adept woman bakes feast .
+0 skillful man completes algorithm .
+1 skillful woman completes meal .
+0 man prepares interesting application .
+1 adept woman grills meal .
+1 skillful individual prepares feast .
+0 skillful person completes algorithm .
+0 woman runs interesting program .
+1 adept individual completes meal .
+1 individual bakes delicious noodles .
+1 adept man bakes noodles .
+1 individual bakes dinner .
+1 adept man grills dinner .
+1 woman completes feast .
+0 woman executes useful software .
+0 woman runs tool .
+0 adept individual prepares software .
+1 boy grills tasty dinner .
+0 man executes tool .
+1 adept boy completes noodles .
+1 lady cooks tasty sauce .
+1 skillful woman grills sauce .
+0 man completes interesting tool .
+1 skillful boy prepares noodles .
+0 person fixes interesting program .
+1 individual grills delicious feast .
+0 skillful woman executes application .
+0 woman prepares program .
+1 woman cooks delicious breakfast .
+0 person runs useful algorithm .
+1 man grills tasty meal .
+0 man completes software .
+0 person executes algorithm .
+1 person grills delicious feast .
+0 person runs interesting algorithm .
+1 lady prepares delicious meal .
+1 lady bakes delicious feast .
+0 adept person executes software .
+0 individual completes interesting program .
+1 boy bakes tasty dinner .
+1 woman grills dinner .
+0 man executes algorithm .
+1 individual cooks feast .
+1 lady grills tasty dinner .
+0 skillful woman runs program .
+0 lady executes program .
+0 lady completes interesting application .
+1 skillful man cooks dinner .
+0 person fixes useful program .
+0 skillful individual executes software .
+0 man prepares interesting tool .
+1 lady cooks feast .
+0 skillful lady completes tool .
+1 skillful person cooks meal .
+1 adept boy cooks breakfast .
+0 person executes interesting program .
+1 adept lady bakes breakfast .
+1 lady completes delicious dinner .
+0 skillful woman completes software .
+0 adept woman debugs tool .
+1 individual completes delicious feast .
+0 skillful person completes software .
+0 adept woman executes application .
+0 woman executes interesting software .
+0 woman executes program .
+1 man cooks tasty sauce .
+0 woman prepares software .
+1 boy completes delicious sauce .
+0 woman prepares useful application .
+0 person fixes interesting software .
+1 woman grills delicious sauce .
+1 skillful lady grills noodles .
+0 man debugs useful tool .
+0 man runs tool .
+0 lady runs interesting software .
+0 lady runs useful algorithm .
+1 skillful lady bakes feast .
+0 adept boy completes algorithm .
+1 adept person cooks noodles .
+0 adept woman fixes application .
+1 skillful woman grills breakfast .
+1 skillful boy completes noodles .
+0 man fixes useful algorithm .
+0 skillful lady executes software .
+0 woman runs interesting software .
+1 lady grills delicious meal .
+0 lady runs interesting program .
+1 adept man cooks feast .
+0 adept individual completes algorithm .
+1 skillful person cooks feast .
+1 woman bakes feast .
+1 individual cooks delicious noodles .
+1 boy grills delicious dinner .
+0 skillful lady runs tool .
+0 person executes application .
+1 man cooks delicious feast .
+0 man completes interesting algorithm .
+1 adept individual bakes breakfast .
+0 adept person debugs algorithm .
+1 person bakes tasty noodles .
+0 boy prepares algorithm .
+0 adept individual runs software .
+1 skillful person grills breakfast .
+1 boy completes noodles .
+1 man bakes delicious sauce .
+1 lady cooks breakfast .
+0 adept lady prepares tool .
+0 lady executes algorithm .
+0 person runs interesting application .
+1 lady completes feast .
+1 boy prepares meal .
+1 lady cooks dinner .
+1 skillful woman grills meal .
+0 boy completes useful application .
+0 adept person completes software .
+0 person prepares interesting algorithm .
+1 woman completes breakfast .
+0 boy completes interesting tool .
+1 skillful woman cooks noodles .
+0 skillful person prepares program .
+0 woman fixes interesting application .
+1 skillful man grills dinner .
+0 skillful woman debugs tool .
+0 skillful woman runs tool .
+1 person completes tasty feast .
+1 boy cooks feast .
+0 boy completes algorithm .
+1 person completes tasty noodles .
+0 woman runs application .
+0 adept woman completes application .
+1 boy bakes delicious noodles .
+1 woman grills delicious noodles .
+1 adept person bakes feast .
+1 lady grills tasty breakfast .
+1 woman grills feast .
+1 boy bakes delicious dinner .
+1 man prepares delicious noodles .
+1 adept woman grills dinner .
+1 woman cooks breakfast .
+0 adept person fixes tool .
+1 person prepares delicious dinner .
+0 adept boy prepares software .
+1 lady cooks tasty feast .
+1 adept man grills noodles .
+0 adept individual completes software .
+1 adept woman prepares feast .
+0 woman completes useful application .
+1 skillful boy prepares breakfast .
+1 adept man grills sauce .
+0 lady executes useful application .
+1 man bakes tasty feast .
+1 person cooks delicious dinner .
+1 adept boy completes dinner .
+1 adept individual completes feast .
+1 boy grills delicious feast .
+1 man bakes tasty noodles .
+0 lady runs useful tool .
+1 adept lady grills feast .
+1 skillful boy prepares dinner .
+0 adept boy fixes tool .
+0 individual completes useful algorithm .
+1 lady completes delicious meal .
+1 adept person cooks meal .
+0 person completes useful tool .
+0 skillful woman prepares tool .
+0 woman completes software .
+1 individual prepares tasty dinner .
+0 individual fixes interesting application .
+1 woman prepares dinner .
+1 individual cooks delicious breakfast .
+0 person prepares tool .
+0 woman fixes useful application .
+1 adept man cooks dinner .
+1 individual prepares delicious sauce .
+1 skillful individual cooks meal .
+1 lady bakes tasty sauce .
+1 skillful boy cooks feast .
+0 individual executes useful program .
+0 woman debugs useful application .
+0 lady fixes useful algorithm .
+0 skillful man fixes software .
+0 skillful person completes program .
+1 skillful man bakes dinner .
+0 adept man completes software .
+1 woman bakes dinner .
+1 lady completes delicious breakfast .
+1 woman prepares delicious meal .
+0 lady fixes interesting program .
+0 skillful boy executes tool .
+0 skillful person prepares application .
+1 woman bakes tasty meal .
+0 adept lady runs software .
+1 man bakes delicious dinner .
+0 man fixes interesting application .
+0 skillful lady runs program .
+0 lady prepares algorithm .
+0 adept boy completes software .
+1 man grills delicious sauce .
+1 individual prepares dinner .
+0 skillful individual prepares algorithm .
+0 lady executes useful tool .
+0 person runs software .
+1 skillful man cooks sauce .
+1 skillful person bakes meal .
+0 skillful individual prepares program .
+0 person completes algorithm .
+0 skillful lady prepares application .
+1 lady prepares dinner .
+1 person completes delicious breakfast .
+1 adept individual grills meal .
+1 skillful man completes dinner .
+0 skillful individual completes program .
+0 man debugs interesting software .
+0 woman executes useful tool .
+0 skillful man prepares algorithm .
+0 man debugs interesting application .
+1 skillful lady bakes meal .
+0 skillful individual runs software .
+0 person prepares interesting software .
+0 man completes program .
+1 man prepares meal .
+0 woman fixes interesting tool .
+0 woman fixes interesting software .
+0 skillful man completes program .
+1 boy bakes sauce .
+0 individual prepares useful software .
+0 boy runs algorithm .
+0 boy completes software .
+1 woman cooks meal .
+1 skillful man grills meal .
+1 lady completes dinner .
+0 person fixes useful application .
+1 boy cooks delicious feast .
+1 boy grills tasty sauce .
+0 person prepares useful algorithm .
+1 skillful person grills sauce .
+1 person bakes feast .
+1 adept woman cooks dinner .
+1 person prepares delicious meal .
+0 boy prepares interesting tool .
+0 skillful boy runs tool .
+1 adept man prepares dinner .
+1 person prepares dinner .
+0 woman executes algorithm .
+1 individual cooks breakfast .
+0 boy fixes useful program .
+0 lady runs software .
+0 person prepares useful software .
+0 boy completes program .
+0 lady runs interesting algorithm .
+1 adept man completes dinner .
+1 individual completes tasty breakfast .
+0 woman runs software .
+1 boy completes breakfast .
+1 man bakes delicious meal .
+1 individual cooks dinner .
+1 woman bakes sauce .
+1 lady grills delicious sauce .
+0 person fixes tool .
+0 man debugs interesting algorithm .
+0 boy runs tool .
+0 individual prepares useful algorithm .
+1 adept lady bakes sauce .
+1 person cooks delicious noodles .
+0 boy completes application .
+0 skillful boy completes software .
+1 woman prepares sauce .
+1 person completes tasty breakfast .
+1 boy prepares tasty noodles .
+1 boy cooks breakfast .
+0 skillful person prepares tool .
+1 man prepares delicious meal .
+0 man fixes useful software .
+1 person completes dinner .
+1 man prepares breakfast .
+1 individual completes tasty noodles .
+1 man bakes noodles .
+1 adept person completes sauce .
+0 skillful lady executes application .
+0 woman executes tool .
+1 adept man completes noodles .
+0 individual prepares software .
+1 adept boy cooks meal .
+1 man bakes tasty meal .
+1 boy cooks tasty meal .
+0 lady prepares software .
+0 skillful man executes software .
+1 adept lady bakes meal .
+0 boy prepares interesting application .
+1 skillful person prepares sauce .
+1 man prepares tasty feast .
+0 adept woman fixes software .
+1 adept boy grills noodles .
+1 skillful man cooks meal .
+1 skillful woman bakes feast .
+0 skillful man executes tool .
+1 skillful lady bakes breakfast .
+0 skillful person fixes algorithm .
+0 adept woman debugs software .
+0 woman executes interesting application .
+1 adept man bakes feast .
+1 woman cooks delicious feast .
+0 man prepares useful program .
+1 skillful person prepares feast .
+1 adept boy grills dinner .
+1 person bakes tasty meal .
+0 person debugs interesting program .
+0 woman runs useful application .
+0 skillful boy fixes software .
+0 skillful man prepares program .
+1 skillful lady cooks dinner .
+1 individual completes delicious dinner .
+0 person executes software .
+0 man prepares useful software .
+1 woman grills tasty sauce .
+1 skillful man cooks breakfast .
+1 woman completes dinner .
+1 woman bakes meal .
+1 lady bakes dinner .
+1 adept individual bakes dinner .
+0 boy debugs interesting tool .
+1 person cooks tasty noodles .
+1 adept individual prepares sauce .
+0 skillful woman executes program .
+1 person prepares tasty sauce .
+0 man fixes software .
+1 lady completes delicious feast .
+1 individual cooks meal .
+1 boy grills noodles .
+0 man fixes interesting software .
+1 woman bakes tasty noodles .
+1 lady prepares breakfast .
+1 woman bakes tasty sauce .
+0 person executes useful algorithm .
+0 skillful individual completes tool .
+0 skillful person executes tool .
+1 woman grills sauce .
+0 man runs interesting application .
+0 adept boy completes program .
+1 adept person cooks sauce .
+1 adept boy grills breakfast .
+1 adept woman bakes noodles .
+0 lady fixes useful software .
+0 adept man executes tool .
+1 skillful person prepares meal .
+1 boy grills delicious sauce .
+0 lady runs useful software .
+1 man grills sauce .
+0 woman fixes useful tool .
+1 woman bakes delicious dinner .
+1 skillful individual grills dinner .
+0 adept person prepares algorithm .
+1 adept lady grills breakfast .
+0 adept man prepares program .
+0 man prepares algorithm .
+0 woman executes application .
+0 woman executes interesting program .
+0 adept individual prepares tool .
+0 boy fixes interesting program .
+1 man grills delicious meal .
+1 adept woman cooks noodles .
+0 woman runs algorithm .
+0 adept boy prepares algorithm .
+1 boy completes delicious meal .
+1 woman grills tasty dinner .
+1 skillful woman bakes dinner .
+1 man prepares feast .
+1 adept person bakes meal .
+0 adept individual completes application .
+1 adept lady grills noodles .
+0 boy completes useful software .
+1 woman grills tasty meal .
+1 adept individual cooks meal .
+0 boy executes tool .
+0 boy executes application .
+0 woman fixes useful algorithm .
+0 boy debugs useful software .
+0 skillful lady completes application .
+1 man completes delicious sauce .
+1 man prepares noodles .
+1 adept lady cooks breakfast .
+0 person completes useful algorithm .
+0 person executes useful program .
+1 skillful individual completes noodles .
+1 man prepares delicious sauce .
+0 adept boy executes tool .
+1 individual prepares tasty sauce .
+0 boy completes interesting application .
+0 person runs program .
+1 man prepares sauce .
+1 adept person bakes dinner .
+1 lady grills sauce .
+1 woman cooks delicious dinner .
+1 boy prepares delicious feast .
+0 adept lady executes program .
+1 skillful man cooks noodles .
+1 adept person prepares feast .
+0 man prepares application .
+1 boy prepares delicious sauce .
+1 individual completes delicious breakfast .
+0 lady executes application .
+1 adept person completes feast .
+1 woman prepares breakfast .
+1 adept person grills feast .
+0 man fixes useful program .
+1 skillful lady grills dinner .
+1 man cooks breakfast .
+1 skillful boy cooks sauce .
+1 individual cooks tasty breakfast .
+1 man cooks delicious sauce .
+0 person prepares useful program .
+0 adept boy completes tool .
+0 woman debugs interesting algorithm .
+1 lady prepares tasty dinner .
+0 boy completes interesting algorithm .
+1 adept man bakes meal .
+1 person cooks feast .
+1 adept woman grills sauce .
+1 skillful woman prepares meal .
+1 adept individual prepares noodles .
+0 adept woman runs program .
+1 adept boy bakes breakfast .
+0 lady executes interesting algorithm .
+0 skillful lady runs software .
+1 woman grills delicious breakfast .
+1 man completes feast .
+1 person cooks sauce .
+1 skillful person cooks sauce .
+0 boy prepares useful algorithm .
+1 skillful person completes sauce .
+1 skillful man grills noodles .
+1 woman completes tasty feast .
+0 person executes program .
+0 skillful woman runs application .
+1 skillful man prepares noodles .
+0 person runs interesting program .
+0 boy completes useful algorithm .
+1 man bakes tasty sauce .
+1 adept individual cooks noodles .
+1 person completes delicious noodles .
+1 skillful man bakes noodles .
+1 adept individual bakes noodles .
+1 adept woman prepares meal .
+0 boy prepares useful application .
+1 skillful woman grills feast .
+1 lady cooks meal .
+1 adept person bakes breakfast .
+1 skillful man prepares sauce .
+0 man prepares tool .
+0 lady completes tool .
+0 woman fixes useful program .
+1 adept man cooks noodles .
+1 woman grills tasty breakfast .
+1 woman prepares delicious breakfast .
+0 man completes application .
+1 adept man prepares sauce .
+1 adept individual grills dinner .
+1 lady completes tasty breakfast .
+0 person runs useful program .
+1 skillful boy bakes breakfast .
+1 person bakes dinner .
+0 adept boy runs tool .
+0 boy prepares program .
+1 skillful person bakes sauce .
+0 skillful woman executes tool .
+1 woman grills meal .
+0 individual completes interesting software .
+1 man prepares delicious feast .
+1 man cooks noodles .
+0 man completes useful program .
+0 woman fixes software .
+0 man runs useful application .
+0 person prepares algorithm .
+1 person grills tasty feast .
+1 lady bakes sauce .
+0 adept woman executes software .
+0 skillful woman completes tool .
+0 person completes software .
+1 skillful person completes meal .
+1 adept person completes meal .
+0 adept woman runs software .
+1 individual bakes tasty noodles .
+0 man executes software .
+1 adept boy prepares noodles .
+1 woman cooks tasty meal .
+0 person debugs interesting algorithm .
+0 man prepares program .
+1 man prepares dinner .
+0 man completes useful software .
+0 skillful person prepares algorithm .
+1 adept individual grills sauce .
+1 boy completes dinner .
+0 skillful person fixes tool .
+0 skillful individual completes software .
+0 adept individual prepares algorithm .
+1 skillful boy cooks dinner .
+1 person bakes delicious meal .
+0 skillful man prepares tool .
+0 boy prepares useful software .
+0 boy executes algorithm .
+1 skillful man prepares breakfast .
+1 woman bakes delicious feast .
+1 skillful man bakes sauce .
+1 individual prepares tasty feast .
+1 person completes breakfast .
+1 adept man prepares noodles .
+1 lady prepares feast .
+0 woman prepares tool .
+1 person grills feast .
+0 boy fixes interesting algorithm .
+1 adept boy cooks sauce .
+1 skillful woman bakes sauce .
+1 skillful boy grills noodles .
+1 boy completes tasty noodles .
+0 skillful person executes software .
+1 man cooks tasty noodles .
+1 individual cooks noodles .
+0 skillful individual prepares application .
+0 adept man prepares algorithm .
+1 skillful boy bakes noodles .
+0 person fixes interesting tool .
+0 man prepares interesting algorithm .
+0 woman runs program .
+1 man grills noodles .
+0 man completes useful algorithm .
+1 individual prepares delicious feast .
+1 boy grills sauce .
+1 adept person completes noodles .
+1 skillful woman prepares feast .
+1 skillful man completes breakfast .
+1 lady cooks delicious noodles .
+1 woman cooks delicious noodles .
+0 person completes program .
+0 woman debugs interesting application .
+1 person cooks tasty breakfast .
+0 lady fixes useful tool .
+0 skillful person runs tool .
+1 person cooks dinner .
+1 woman completes tasty meal .
+0 skillful man runs tool .
+1 man bakes delicious feast .
+0 adept lady executes application .
+0 man completes interesting application .
+1 lady grills tasty feast .
+1 person bakes delicious sauce .
+0 man completes algorithm .
+1 skillful person grills meal .
+0 individual executes interesting program .
+0 man completes interesting software .
+1 lady completes tasty dinner .
+1 boy grills delicious meal .
+1 adept person prepares noodles .
+0 individual completes useful application .
+0 individual prepares useful tool .
+0 skillful individual completes algorithm .
+1 man grills tasty dinner .
+1 skillful boy grills sauce .
+1 adept individual grills feast .
+0 adept woman prepares application .
+1 woman cooks tasty breakfast .
+1 man completes tasty feast .
+1 boy grills tasty meal .
+1 boy bakes delicious breakfast .
+0 lady executes useful algorithm .
+1 boy prepares delicious noodles .
+0 person completes interesting algorithm .
+1 person bakes delicious feast .
+0 boy prepares tool .
+0 individual executes useful application .
+1 person prepares breakfast .
+1 skillful woman bakes noodles .
+0 person prepares software .
+0 person debugs useful application .
+0 person completes interesting application .
+1 adept boy completes breakfast .
+0 lady fixes interesting tool .
+0 lady executes useful software .
+0 adept man completes program .
+1 adept man bakes dinner .
+0 man prepares useful tool .
+0 skillful man completes software .
+0 individual completes useful tool .
+0 boy executes useful application .
+0 boy fixes interesting software .
+0 adept lady debugs software .
+0 skillful woman executes software .
+1 woman prepares tasty meal .
+0 adept man completes algorithm .
+0 woman completes program .
+1 lady prepares tasty feast .
+0 adept woman completes tool .
+0 adept boy debugs software .
+0 person completes tool .
+1 lady bakes tasty meal .
+0 boy prepares interesting algorithm .
+0 man completes interesting program .
+1 individual grills feast .
+0 individual completes useful program .
+1 man bakes sauce .
+0 boy prepares application .
+0 boy prepares useful program .
+1 adept person grills dinner .
+1 woman prepares delicious dinner .
+1 boy completes tasty meal .
+0 skillful person completes application .
+0 adept man prepares software .
+1 woman bakes breakfast .
+0 adept man debugs software .
+0 boy fixes useful algorithm .
+1 person bakes tasty feast .
+1 adept woman cooks sauce .
+1 man grills delicious feast .
