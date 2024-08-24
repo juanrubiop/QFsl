@@ -1,0 +1,451 @@
+\begin{thebibliography}{100}
+
+\bibitem{hey_feynman_2002}
+A.~J.~G. Hey and R.~P. Feynman, {\em Feynman and computation: exploring the limits of computers}.
+\newblock Cambridge, Mass.: Westview Prewss/Perseus Books, 2002.
+\newblock OCLC: 1330987552.
+
+\bibitem{lau_nisq_2022}
+J.~W.~Z. Lau, K.~H. Lim, H.~Shrotriya, and L.~C. Kwek, ``{NISQ} computing: where are we and where do we go?,'' {\em AAPPS Bulletin}, vol.~32, p.~27, Sept. 2022.
+
+\bibitem{barenco_elementary_1995}
+A.~Barenco, C.~H. Bennett, R.~Cleve, D.~P. DiVincenzo, N.~Margolus, P.~Shor, T.~Sleator, J.~A. Smolin, and H.~Weinfurter, ``Elementary gates for quantum computation,'' {\em Physical Review A}, vol.~52, pp.~3457--3467, Nov. 1995.
+
+\bibitem{krantz_quantum_2019}
+P.~Krantz, M.~Kjaergaard, F.~Yan, T.~P. Orlando, S.~Gustavsson, and W.~D. Oliver, ``A quantum engineer's guide to superconducting qubits,'' {\em Applied Physics Reviews}, vol.~6, p.~021318, June 2019.
+
+\bibitem{georgopoulos_modeling_2021}
+K.~Georgopoulos, C.~Emary, and P.~Zuliani, ``Modeling and simulating the noisy behavior of near-term quantum computers,'' {\em Physical Review A}, vol.~104, p.~062432, Dec. 2021.
+
+\bibitem{di_bartolomeo_noisy_2023}
+G.~Di~Bartolomeo, M.~Vischi, F.~Cesa, R.~Wixinger, M.~Grossi, S.~Donadi, and A.~Bassi, ``Noisy gates for simulating quantum computers,'' {\em Physical Review Research}, vol.~5, p.~043210, Dec. 2023.
+
+\bibitem{knill_theory_2000}
+E.~Knill, R.~Laflamme, and L.~Viola, ``Theory of {Quantum} {Error} {Correction} for {General} {Noise},'' {\em Physical Review Letters}, vol.~84, pp.~2525--2528, Mar. 2000.
+
+\bibitem{bravyi_quantum_2018}
+S.~Bravyi, D.~Gosset, and R.~K{\"o}nig, ``Quantum advantage with shallow circuits,'' {\em Science}, vol.~362, pp.~308--311, Oct. 2018.
+
+\bibitem{mcclean_theory_2016}
+J.~R. McClean, J.~Romero, R.~Babbush, and A.~Aspuru-Guzik, ``The theory of variational hybrid quantum-classical algorithms,'' {\em New Journal of Physics}, vol.~18, p.~023023, Feb. 2016.
+
+\bibitem{wecker_progress_2015}
+D.~Wecker, M.~B. Hastings, and M.~Troyer, ``Progress towards practical quantum variational algorithms,'' {\em Physical Review A}, vol.~92, p.~042303, Oct. 2015.
+
+\bibitem{cerezo_variational_2021}
+M.~Cerezo, A.~Arrasmith, R.~Babbush, S.~C. Benjamin, S.~Endo, K.~Fujii, J.~R. McClean, K.~Mitarai, X.~Yuan, L.~Cincio, and P.~J. Coles, ``Variational quantum algorithms,'' {\em Nature Reviews Physics}, vol.~3, pp.~625--644, Aug. 2021.
+
+\bibitem{peruzzo_variational_2014}
+A.~Peruzzo, J.~McClean, P.~Shadbolt, M.-H. Yung, X.-Q. Zhou, P.~J. Love, A.~Aspuru-Guzik, and J.~L. O\'~Brien, ``A variational eigenvalue solver on a photonic quantum processor,'' {\em Nature Communications}, vol.~5, p.~4213, July 2014.
+
+\bibitem{tilly_variational_2022}
+J.~Tilly, H.~Chen, S.~Cao, D.~Picozzi, K.~Setia, Y.~Li, E.~Grant, L.~Wossnig, I.~Rungger, G.~H. Booth, and J.~Tennyson, ``The {Variational} {Quantum} {Eigensolver}: {A} review of methods and best practices,'' {\em Physics Reports}, vol.~986, pp.~1--128, Nov. 2022.
+
+\bibitem{kandala_hardware-efficient_2017}
+A.~Kandala, A.~Mezzacapo, K.~Temme, M.~Takita, M.~Brink, J.~M. Chow, and J.~M. Gambetta, ``Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets,'' {\em Nature}, vol.~549, pp.~242--246, Sept. 2017.
+
+\bibitem{sharma_noise_2020}
+K.~Sharma, S.~Khatri, M.~Cerezo, and P.~J. Coles, ``Noise resilience of variational quantum compiling,'' {\em New Journal of Physics}, vol.~22, p.~043006, Apr. 2020.
+
+\bibitem{ding_evaluating_2022}
+C.~Ding, X.-Y. Xu, S.~Zhang, H.-L. Huang, and W.-S. Bao, ``Evaluating the resilience of variational quantum algorithms to leakage noise,'' {\em Physical Review A}, vol.~106, p.~042421, Oct. 2022.
+
+\bibitem{fontana_evaluating_2021}
+E.~Fontana, N.~Fitzpatrick, D.~M. Ramo, R.~Duncan, and I.~Rungger, ``Evaluating the noise resilience of variational quantum algorithms,'' {\em Physical Review A}, vol.~104, p.~022403, Aug. 2021.
+
+\bibitem{farhi_quantum_2014}
+E.~Farhi, J.~Goldstone, and S.~Gutmann, ``A {Quantum} {Approximate} {Optimization} {Algorithm},'' Nov. 2014.
+\newblock arXiv:1411.4028 [quant-ph].
+
+\bibitem{romero_quantum_2017}
+J.~Romero, J.~P. Olson, and A.~Aspuru-Guzik, ``Quantum autoencoders for efficient compression of quantum data,'' {\em Quantum Science and Technology}, vol.~2, p.~045001, Dec. 2017.
+
+\bibitem{ravi_vaqem_2022}
+G.~S. Ravi, K.~N. Smith, P.~Gokhale, A.~Mari, N.~Earnest, A.~Javadi-Abhari, and F.~T. Chong, ``{VAQEM}: {A} {Variational} {Approach} to {Quantum} {Error} {Mitigation},'' in {\em 2022 {IEEE} {International} {Symposium} on {High}-{Performance} {Computer} {Architecture} ({HPCA})}, (Seoul, Korea, Republic of), pp.~288--303, IEEE, Apr. 2022.
+
+\bibitem{leone_practical_2024}
+L.~Leone, S.~F.~E. Oliviero, L.~Cincio, and M.~Cerezo, ``On the practical usefulness of the {Hardware} {Efficient} {Ansatz},'' {\em Quantum}, vol.~8, p.~1395, July 2024.
+\newblock arXiv:2211.01477 [quant-ph].
+
+\bibitem{tilma_generalized_2002}
+T.~Tilma and E.~C.~G. Sudarshan, ``Generalized {Euler} angle parametrization for \textit{{SU}} ( \textit{{N}} ),'' {\em Journal of Physics A: Mathematical and General}, vol.~35, pp.~10467--10501, Dec. 2002.
+
+\bibitem{tilma_applications_2003}
+T.~Tilma and E.~C.~G. Sudarshan, ``Some {Applications} for an {Euler} {Angle} {Parameterization} of {SU}({N}) and {U}({N}),'' Jan. 2003.
+\newblock arXiv:quant-ph/0212075.
+
+\bibitem{nielsen_quantum_2012}
+M.~A. Nielsen and I.~L. Chuang, {\em Quantum {Computation} and {Quantum} {Information}: 10th {Anniversary} {Edition}}.
+\newblock Cambridge University Press, 1~ed., June 2012.
+
+\bibitem{bremner_average-case_2016}
+M.~J. Bremner, A.~Montanaro, and D.~J. Shepherd, ``Average-case complexity versus approximate simulation of commuting quantum computations,'' {\em Physical Review Letters}, vol.~117, p.~080501, Aug. 2016.
+\newblock arXiv:1504.07999 [quant-ph].
+
+\bibitem{park_hardware-efficient_2024}
+C.-Y. Park, M.~Kang, and J.~Huh, ``Hardware-efficient ansatz without barren plateaus in any depth,'' Mar. 2024.
+\newblock arXiv:2403.04844 [cond-mat, physics:quant-ph].
+
+\bibitem{sim_expressibility_2019}
+S.~Sim, P.~D. Johnson, and A.~Aspuru-Guzik, ``Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms,'' {\em Advanced Quantum Technologies}, vol.~2, p.~1900070, Dec. 2019.
+\newblock arXiv:1905.10876 [quant-ph].
+
+\bibitem{schetakis_binary_2021}
+N.~Schetakis, D.~Aghamalyan, M.~Boguslavsky, and P.~Griffin, ``Binary classifiers for noisy datasets: a comparative study of existing quantum machine learning frameworks and some new approaches,'' Nov. 2021.
+\newblock arXiv:2111.03372 [quant-ph].
+
+\bibitem{belov_distributions_2011}
+D.~I. Belov and R.~D. Armstrong, ``Distributions of the {Kullback} {Leibler} divergence with applications,'' {\em British Journal of Mathematical and Statistical Psychology}, vol.~64, pp.~291--309, May 2011.
+
+\bibitem{boes_von_2019}
+P.~Boes, J.~Eisert, R.~Gallego, M.~P. M{\"u}ller, and H.~Wilming, ``Von {Neumann} {Entropy} from {Unitarity},'' {\em Physical Review Letters}, vol.~122, p.~210402, May 2019.
+
+\bibitem{terhal_schmidt_2000}
+B.~M. Terhal and P.~Horodecki, ``Schmidt number for density matrices,'' {\em Physical Review A}, vol.~61, p.~040301, Mar. 2000.
+
+\bibitem{meyer_global_2002}
+D.~A. Meyer and N.~R. Wallach, ``Global entanglement in multiparticle systems,'' {\em Journal of Mathematical Physics}, vol.~43, pp.~4273--4278, Sept. 2002.
+
+\bibitem{deutsch_quantum_1985}
+D.~Deutsch, ``Quantum theory, the {Church} {Turing} principle and the universal quantum computer,'' {\em Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences}, vol.~400, pp.~97--117, July 1985.
+
+\bibitem{jozsa_role_2003}
+R.~Jozsa and N.~Linden, ``On the role of entanglement in quantum computational speed-up,'' {\em Proceedings of the Royal Society of London. Series A: Mathematical, Physical and Engineering Sciences}, vol.~459, pp.~2011--2032, Aug. 2003.
+\newblock arXiv:quant-ph/0201143.
+
+\bibitem{jozsa_searching_1999}
+R.~Jozsa, ``Searching in {Grover}'s {Algorithm},'' Jan. 1999.
+\newblock arXiv:quant-ph/9901021.
+
+\bibitem{weinstein_implementation_2001}
+Y.~S. Weinstein, M.~A. Pravia, E.~M. Fortunato, S.~Lloyd, and D.~G. Cory, ``Implementation of the {Quantum} {Fourier} {Transform},'' {\em Physical Review Letters}, vol.~86, pp.~1889--1891, Feb. 2001.
+
+\bibitem{jiang_survey_2021}
+D.~Jiang, X.~Liu, H.~Song, and H.~Xie, ``An survey: {Quantum} {Phase} {Estimation} {Algorithms},'' in {\em 2021 {IEEE} 5th {Information} {Technology},{Networking},{Electronic} and {Automation} {Control} {Conference} ({ITNEC})}, (Xi'an, China), pp.~884--888, IEEE, Oct. 2021.
+
+\bibitem{wong_shors_2024}
+H.~Y. Wong, ``Shor's {Algorithm},'' in {\em Introduction to {Quantum} {Computing}}, pp.~289--298, Cham: Springer International Publishing, 2024.
+
+\bibitem{pirandola_advances_2015}
+S.~Pirandola, J.~Eisert, C.~Weedbrook, A.~Furusawa, and S.~L. Braunstein, ``Advances in quantum teleportation,'' {\em Nature Photonics}, vol.~9, pp.~641--652, Oct. 2015.
+
+\bibitem{guo_advances_2019}
+Y.~Guo, B.~Liu, C.~Li, and G.~Guo, ``Advances in {Quantum} {Dense} {Coding},'' {\em Advanced Quantum Technologies}, vol.~2, p.~1900011, June 2019.
+
+\bibitem{biamonte_quantum_2017}
+J.~Biamonte, P.~Wittek, N.~Pancotti, P.~Rebentrost, N.~Wiebe, and S.~Lloyd, ``Quantum machine learning,'' {\em Nature}, vol.~549, pp.~195--202, Sept. 2017.
+
+\bibitem{killoran_continuous-variable_2019}
+N.~Killoran, T.~R. Bromley, J.~M. Arrazola, M.~Schuld, N.~Quesada, and S.~Lloyd, ``Continuous-variable quantum neural networks,'' {\em Physical Review Research}, vol.~1, p.~033063, Oct. 2019.
+\newblock arXiv:1806.06871 [quant-ph].
+
+\bibitem{steinbrecher_quantum_2018}
+G.~R. Steinbrecher, J.~P. Olson, D.~Englund, and J.~Carolan, ``Quantum optical neural networks,'' Sept. 2018.
+\newblock arXiv:1808.10047 [quant-ph].
+
+\bibitem{farhi_classification_2018}
+E.~Farhi and H.~Neven, ``Classification with {Quantum} {Neural} {Networks} on {Near} {Term} {Processors},'' Aug. 2018.
+\newblock arXiv:1802.06002 [quant-ph].
+
+\bibitem{schuld_quest_2014}
+M.~Schuld, I.~Sinayskiy, and F.~Petruccione, ``The quest for a {Quantum} {Neural} {Network},'' {\em Quantum Information Processing}, vol.~13, pp.~2567--2586, Nov. 2014.
+
+\bibitem{zhou_recognition_1999}
+J.~Zhou, Q.~Gan, A.~Krzy\.zak, and C.~Y. Suen, ``Recognition of handwritten numerals by {Quantum} {Neural} {Network} with fuzzy features,'' {\em International Journal on Document Analysis and Recognition}, vol.~2, pp.~30--36, July 1999.
+
+\bibitem{li_model_2014}
+P.~Li and H.~Xiao, ``Model and algorithm of quantum-inspired neural network with sequence input based on controlled rotation gates,'' {\em Applied Intelligence}, vol.~40, pp.~107--126, Jan. 2014.
+
+\bibitem{jie_zhou_automatic_2003}
+{Jie Zhou}, ``Automatic detection of premature ventricular contraction using quantum neural networks,'' in {\em Third {IEEE} {Symposium} on {Bioinformatics} and {Bioengineering}, 2003. {Proceedings}.}, (Bethesda, MD, USA), pp.~169--173, IEEE Comput. Soc, 2003.
+
+\bibitem{azevedo_time_2007}
+C.~R.~B. Azevedo and T.~A.~E. Ferreira, ``Time series forecasting with {Qubit} {Neural} {Networks},'' in {\em Proceedings of {The} {Eleventh} {IASTED} {International} {Conference} on {Artificial} {Intelligence} and {Soft} {Computing}}, {ASC} '07, (USA), pp.~13--18, ACTA Press, Aug. 2007.
+
+\bibitem{goodfellow_generative_2014}
+I.~J. Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair, A.~Courville, and Y.~Bengio, ``Generative {Adversarial} {Networks},'' June 2014.
+\newblock arXiv:1406.2661 [cs, stat].
+
+\bibitem{dallaire-demers_quantum_2018}
+P.-L. Dallaire-Demers and N.~Killoran, ``Quantum generative adversarial networks,'' {\em Physical Review A}, vol.~98, p.~012324, July 2018.
+
+\bibitem{zoufal_quantum_2019}
+C.~Zoufal, A.~Lucchi, and S.~Woerner, ``Quantum {Generative} {Adversarial} {Networks} for learning and loading random distributions,'' {\em npj Quantum Information}, vol.~5, pp.~1--9, Nov. 2019.
+
+\bibitem{kao_exploring_2023}
+P.-Y. Kao, Y.-C. Yang, W.-Y. Chiang, J.-Y. Hsiao, Y.~Cao, A.~Aliper, F.~Ren, A.~Aspuru-Guzik, A.~Zhavoronkov, M.-H. Hsieh, and Y.-C. Lin, ``Exploring the {Advantages} of {Quantum} {Generative} {Adversarial} {Networks} in {Generative} {Chemistry},'' {\em Journal of Chemical Information and Modeling}, vol.~63, pp.~3307--3318, June 2023.
+
+\bibitem{fuchs_hybrid_2023}
+F.~Fuchs and B.~Horvath, ``A {Hybrid} {Quantum} {Wasserstein} {GAN} with {Applications} to {Option} {Pricing},'' {\em SSRN Electronic Journal}, 2023.
+
+\bibitem{cong_quantum_2019}
+I.~Cong, S.~Choi, and M.~D. Lukin, ``Quantum convolutional neural networks,'' {\em Nature Physics}, vol.~15, pp.~1273--1278, Dec. 2019.
+
+\bibitem{umeano_what_2024}
+C.~Umeano, A.~E. Paine, V.~E. Elfving, and O.~Kyriienko, ``What can we learn from quantum convolutional neural networks?,'' July 2024.
+\newblock arXiv:2308.16664 [cond-mat, physics:quant-ph].
+
+\bibitem{chang_survey_2024}
+Y.~Chang, X.~Wang, J.~Wang, Y.~Wu, L.~Yang, K.~Zhu, H.~Chen, X.~Yi, C.~Wang, Y.~Wang, W.~Ye, Y.~Zhang, Y.~Chang, P.~S. Yu, Q.~Yang, and X.~Xie, ``A {Survey} on {Evaluation} of {Large} {Language} {Models},'' {\em ACM Transactions on Intelligent Systems and Technology}, vol.~15, pp.~1--45, June 2024.
+
+\bibitem{tsvetkov_evaluation_2015}
+Y.~Tsvetkov, M.~Faruqui, W.~Ling, G.~Lample, and C.~Dyer, ``Evaluation of {Word} {Vector} {Representations} by {Subspace} {Alignment},'' in {\em Proceedings of the 2015 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}}, (Lisbon, Portugal), pp.~2049--2054, Association for Computational Linguistics, 2015.
+
+\bibitem{schnabel_evaluation_2015}
+T.~Schnabel, I.~Labutov, D.~Mimno, and T.~Joachims, ``Evaluation methods for unsupervised word embeddings,'' in {\em Proceedings of the 2015 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}}, (Lisbon, Portugal), pp.~298--307, Association for Computational Linguistics, 2015.
+
+\bibitem{baumel_sentence_2016}
+T.~Baumel, R.~Cohen, and M.~Elhadad, ``Sentence {Embedding} {Evaluation} {Using} {Pyramid} {Annotation},'' in {\em Proceedings of the 1st {Workshop} on {Evaluating} {Vector}-{Space} {Representations} for {NLP}}, (Berlin, Germany), pp.~145--149, Association for Computational Linguistics, 2016.
+
+\bibitem{wazni_quantum_2022}
+H.~Wazni, K.~I. Lo, L.~McPheat, and M.~Sadrzadeh, ``A {Quantum} {Natural} {Language} {Processing} {Approach} to {Pronoun} {Resolution},'' Aug. 2022.
+\newblock arXiv:2208.05393 [cs].
+
+\bibitem{chowdhary_natural_2020}
+K.~R. Chowdhary, ``Natural {Language} {Processing},'' in {\em Fundamentals of {Artificial} {Intelligence}}, pp.~603--649, New Delhi: Springer India, 2020.
+
+\bibitem{klontzas_natural_2023}
+S.~C. Fanni, M.~Febi, G.~Aghakhanyan, and E.~Neri, ``Natural {Language} {Processing},'' in {\em Introduction to {Artificial} {Intelligence}} (M.~E. Klontzas, S.~C. Fanni, and E.~Neri, eds.), pp.~87--99, Cham: Springer International Publishing, 2023.
+
+\bibitem{nadkarni_natural_2011}
+P.~M. Nadkarni, L.~Ohno-Machado, and W.~W. Chapman, ``Natural language processing: an introduction,'' {\em Journal of the American Medical Informatics Association}, vol.~18, pp.~544--551, Sept. 2011.
+
+\bibitem{jiao_brief_2021}
+Q.~Jiao and S.~Zhang, ``A {Brief} {Survey} of {Word} {Embedding} and {Its} {Recent} {Development},'' in {\em 2021 {IEEE} 5th {Advanced} {Information} {Technology}, {Electronic} and {Automation} {Control} {Conference} ({IAEAC})}, (Chongqing, China), pp.~1697--1701, IEEE, Mar. 2021.
+
+\bibitem{kartsaklis_prior_2013}
+D.~Kartsaklis and M.~Sadrzadeh, ``Prior {Disambiguation} of {Word} {Tensors} for {Constructing} {Sentence} {Vectors},'' in {\em Proceedings of the 2013 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}} (D.~Yarowsky, T.~Baldwin, A.~Korhonen, K.~Livescu, and S.~Bethard, eds.), (Seattle, Washington, USA), pp.~1590--1601, Association for Computational Linguistics, Oct. 2013.
+
+\bibitem{rahimi_tenssent_2021}
+Z.~Rahimi and M.~M. Homayounpour, ``{TensSent}: a tensor based sentimental word embedding method,'' {\em Applied Intelligence}, vol.~51, pp.~6056--6071, Aug. 2021.
+
+\bibitem{rahimi_tens-embedding_2020}
+Z.~Rahimi and M.~M. Homayounpour, ``Tens-embedding: {A} {Tensor}-based document embedding method,'' {\em Expert Systems with Applications}, vol.~162, p.~113770, Dec. 2020.
+
+\bibitem{bakarov_survey_2018}
+A.~Bakarov, ``A {Survey} of {Word} {Embeddings} {Evaluation} {Methods},'' Jan. 2018.
+\newblock arXiv:1801.09536 [cs].
+
+\bibitem{lenci_distributional_2018}
+A.~Lenci, ``Distributional {Models} of {Word} {Meaning},'' {\em Annual Review of Linguistics}, vol.~4, pp.~151--171, Jan. 2018.
+
+\bibitem{mikolov_linguistic_2013}
+T.~Mikolov, W.-t. Yih, and G.~Zweig, ``Linguistic {Regularities} in {Continuous} {Space} {Word} {Representations},'' in {\em Proceedings of the 2013 {Conference} of the {North} {American} {Chapter} of the {Association} for {Computational} {Linguistics}: {Human} {Language} {Technologies}} (L.~Vanderwende, H.~Daum{\'e}~III, and K.~Kirchhoff, eds.), (Atlanta, Georgia), pp.~746--751, Association for Computational Linguistics, June 2013.
+
+\bibitem{che_traversal-free_2017}
+X.~Che, N.~Ring, W.~Raschkowski, H.~Yang, and C.~Meinel, ``Traversal-{Free} {Word} {Vector} {Evaluation} in {Analogy} {Space},'' in {\em Proceedings of the 2nd {Workshop} on {Evaluating} {Vector} {Space} {Representations} for {NLP}}, (Copenhagen, Denmark), pp.~11--15, Association for Computational Linguistics, 2017.
+
+\bibitem{pennington_glove_2014}
+J.~Pennington, R.~Socher, and C.~Manning, ``Glove: {Global} {Vectors} for {Word} {Representation},'' in {\em Proceedings of the 2014 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing} ({EMNLP})}, (Doha, Qatar), pp.~1532--1543, Association for Computational Linguistics, 2014.
+
+\bibitem{devlin_bert_2019}
+J.~Devlin, M.-W. Chang, K.~Lee, and K.~Toutanova, ``{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding},'' May 2019.
+\newblock arXiv:1810.04805 [cs].
+
+\bibitem{moore_meaning_1993}
+A.~W. Moore, ed., {\em Meaning and reference}.
+\newblock Oxford readings in philosophy, Oxford ; New York: Oxford University Press, 1993.
+
+\bibitem{riemer_routledge_2016}
+N.~Riemer, ed., {\em The {Routledge} {Handbook} of {Semantics}}.
+\newblock Routledge handbooks in linguistics, London ; New York: Routledge, 2016.
+
+\bibitem{qader_overview_2019}
+W.~A. Qader, M.~M. Ameen, and B.~I. Ahmed, ``An {Overview} of {Bag} of {Words};{Importance}, {Implementation}, {Applications}, and {Challenges},'' in {\em 2019 {International} {Engineering} {Conference} ({IEC})}, (Erbil, Iraq), pp.~200--204, IEEE, June 2019.
+
+\bibitem{zhang_understanding_2010}
+Y.~Zhang, R.~Jin, and Z.-H. Zhou, ``Understanding bag-of-words model: a statistical framework,'' {\em International Journal of Machine Learning and Cybernetics}, vol.~1, pp.~43--52, Dec. 2010.
+
+\bibitem{harris_distributional_1954}
+Z.~S. Harris, ``Distributional {Structure},'' {\em \textit{WORD}}, vol.~10, pp.~146--162, Aug. 1954.
+
+\bibitem{ives_notes_1964}
+S.~Ives, ``Some {Notes} on {Syntax} and {Meaning},'' {\em The Reading Teacher}, vol.~18, no.~3, pp.~179--222, 1964.
+
+\bibitem{coecke_mathematical_2010}
+B.~Coecke, M.~Sadrzadeh, and S.~Clark, ``Mathematical {Foundations} for a {Compositional} {Distributional} {Model} of {Meaning},'' Mar. 2010.
+\newblock arXiv:1003.4394 [cs, math].
+
+\bibitem{lorenz_qnlp_2023}
+R.~Lorenz, A.~Pearson, K.~Meichanetzidis, D.~Kartsaklis, and B.~Coecke, ``{QNLP} in {Practice}: {Running} {Compositional} {Models} of {Meaning} on a {Quantum} {Computer},'' May 2023.
+\newblock arXiv:2102.12846 [quant-ph].
+
+\bibitem{meichanetzidis_quantum_2021}
+K.~Meichanetzidis, S.~Gogioso, G.~de~Felice, N.~Chiappori, A.~Toumi, and B.~Coecke, ``Quantum {Natural} {Language} {Processing} on {Near}-{Term} {Quantum} {Computers},'' Sept. 2021.
+\newblock arXiv:2005.04147 [quant-ph].
+
+\bibitem{wazni_towards_2023}
+H.~Wazni and M.~Sadrzadeh, ``Towards {Transparency} in {Coreference} {Resolution}: {A} {Quantum}-{Inspired} {Approach},'' in {\em Proceedings of {The} {Sixth} {Workshop} on {Computational} {Models} of {Reference}, {Anaphora} and {Coreference} ({CRAC} 2023)} (M.~Ogrodniczuk, V.~Ng, S.~Pradhan, and M.~Poesio, eds.), (Singapore), pp.~15--27, Association for Computational Linguistics, Dec. 2023.
+
+\bibitem{chauhan_quantum_2022}
+V.~Chauhan, S.~Negi, D.~Jain, P.~Singh, A.~K. Sagar, and A.~K. Sharma, ``Quantum {Computers}: {A} {Review} on {How} {Quantum} {Computing} {Can} {Boom} {AI},'' in {\em 2022 2nd {International} {Conference} on {Advance} {Computing} and {Innovative} {Technologies} in {Engineering} ({ICACITE})}, (Greater Noida, India), pp.~559--563, IEEE, Apr. 2022.
+
+\bibitem{zhou_what_2020}
+Y.~Zhou, E.~M. Stoudenmire, and X.~Waintal, ``What {Limits} the {Simulation} of {Quantum} {Computers}?,'' {\em Physical Review X}, vol.~10, p.~041038, Nov. 2020.
+
+\bibitem{li_fei-fei_one-shot_2006}
+{Li Fei-Fei}, R.~Fergus, and P.~Perona, ``One-shot learning of object categories,'' {\em IEEE Transactions on Pattern Analysis and Machine Intelligence}, vol.~28, pp.~594--611, Apr. 2006.
+
+\bibitem{parnami_learning_2022}
+A.~Parnami and M.~Lee, ``Learning from {Few} {Examples}: {A} {Summary} of {Approaches} to {Few}-{Shot} {Learning},'' Mar. 2022.
+\newblock arXiv:2203.04291 [cs].
+
+\bibitem{wang_generalizing_2021}
+Y.~Wang, Q.~Yao, J.~T. Kwok, and L.~M. Ni, ``Generalizing from a {Few} {Examples}: {A} {Survey} on {Few}-shot {Learning},'' {\em ACM Computing Surveys}, vol.~53, pp.~1--34, May 2021.
+
+\bibitem{liu_embedding_2022}
+M.~Liu, J.~Liu, R.~Liu, H.~Makhanov, D.~Lykov, A.~Apte, and Y.~Alexeev, ``Embedding {Learning} in {Hybrid} {Quantum}-{Classical} {Neural} {Networks},'' in {\em 2022 {IEEE} {International} {Conference} on {Quantum} {Computing} and {Engineering} ({QCE})}, pp.~79--86, Sept. 2022.
+\newblock arXiv:2204.04550 [quant-ph].
+
+\bibitem{pan_survey_2010}
+S.~J. Pan and Q.~Yang, ``A {Survey} on {Transfer} {Learning},'' {\em IEEE Transactions on Knowledge and Data Engineering}, vol.~22, pp.~1345--1359, Oct. 2010.
+
+\bibitem{niu_decade_2020}
+S.~Niu, Y.~Liu, J.~Wang, and H.~Song, ``A {Decade} {Survey} of {Transfer} {Learning} (2010 to 2020),'' {\em IEEE Transactions on Artificial Intelligence}, vol.~1, pp.~151--166, Oct. 2020.
+
+\bibitem{zhuang_comprehensive_2021}
+F.~Zhuang, Z.~Qi, K.~Duan, D.~Xi, Y.~Zhu, H.~Zhu, H.~Xiong, and Q.~He, ``A {Comprehensive} {Survey} on {Transfer} {Learning},'' {\em Proceedings of the IEEE}, vol.~109, pp.~43--76, Jan. 2021.
+
+\bibitem{herbelot_high-risk_2017}
+A.~Herbelot and M.~Baroni, ``High-risk learning: acquiring new word vectors from tiny data,'' in {\em Proceedings of the 2017 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}}, (Copenhagen, Denmark), pp.~304--309, Association for Computational Linguistics, 2017.
+
+\bibitem{haibo_he_learning_2009}
+{Haibo He} and E.~Garcia, ``Learning from {Imbalanced} {Data},'' {\em IEEE Transactions on Knowledge and Data Engineering}, vol.~21, pp.~1263--1284, Sept. 2009.
+
+\bibitem{goos_learning_2001}
+S.~Hochreiter, A.~S. Younger, and P.~R. Conwell, ``Learning to {Learn} {Using} {Gradient} {Descent},'' in {\em Artificial {Neural} {Networks} {ICANN} 2001} (G.~Goos, J.~Hartmanis, J.~Van~Leeuwen, G.~Dorffner, H.~Bischof, and K.~Hornik, eds.), vol.~2130, pp.~87--94, Berlin, Heidelberg: Springer Berlin Heidelberg, 2001.
+\newblock Series Title: Lecture Notes in Computer Science.
+
+\bibitem{hospedales_meta-learning_2021}
+T.~M. Hospedales, A.~Antoniou, P.~Micaelli, and A.~J. Storkey, ``Meta-{Learning} in {Neural} {Networks}: {A} {Survey},'' {\em IEEE Transactions on Pattern Analysis and Machine Intelligence}, pp.~1--1, 2021.
+
+\bibitem{friedrich_avoiding_2022}
+L.~Friedrich and J.~Maziero, ``Avoiding barren plateaus with classical deep neural networks,'' {\em Physical Review A}, vol.~106, p.~042433, Oct. 2022.
+
+\bibitem{holmes_connecting_2022}
+Z.~Holmes, K.~Sharma, M.~Cerezo, and P.~J. Coles, ``Connecting {Ansatz} {Expressibility} to {Gradient} {Magnitudes} and {Barren} {Plateaus},'' {\em PRX Quantum}, vol.~3, p.~010313, Jan. 2022.
+
+\bibitem{wang_noise-induced_2021}
+S.~Wang, E.~Fontana, M.~Cerezo, K.~Sharma, A.~Sone, L.~Cincio, and P.~J. Coles, ``Noise-induced barren plateaus in variational quantum algorithms,'' {\em Nature Communications}, vol.~12, p.~6961, Nov. 2021.
+
+\bibitem{cerezo_cost_2021}
+M.~Cerezo, A.~Sone, T.~Volkoff, L.~Cincio, and P.~J. Coles, ``Cost function dependent barren plateaus in shallow parametrized quantum circuits,'' {\em Nature Communications}, vol.~12, p.~1791, Mar. 2021.
+
+\bibitem{patti_entanglement_2021}
+T.~L. Patti, K.~Najafi, X.~Gao, and S.~F. Yelin, ``Entanglement devised barren plateau mitigation,'' {\em Physical Review Research}, vol.~3, p.~033090, July 2021.
+
+\bibitem{mcclean_barren_2018}
+J.~R. McClean, S.~Boixo, V.~N. Smelyanskiy, R.~Babbush, and H.~Neven, ``Barren plateaus in quantum neural network training landscapes,'' {\em Nature Communications}, vol.~9, p.~4812, Nov. 2018.
+
+\bibitem{caro_generalization_2022}
+M.~C. Caro, H.-Y. Huang, M.~Cerezo, K.~Sharma, A.~Sornborger, L.~Cincio, and P.~J. Coles, ``Generalization in quantum machine learning from few training data,'' {\em Nature Communications}, vol.~13, p.~4919, Aug. 2022.
+
+\bibitem{nakaji_approximate_2022}
+K.~Nakaji, S.~Uno, Y.~Suzuki, R.~Raymond, T.~Onodera, T.~Tanaka, H.~Tezuka, N.~Mitsuda, and N.~Yamamoto, ``Approximate amplitude encoding in shallow parameterized quantum circuits and its application to financial market indicator,'' {\em Physical Review Research}, vol.~4, p.~023136, May 2022.
+\newblock arXiv:2103.13211 [quant-ph].
+
+\bibitem{mitsuda_approximate_2023}
+N.~Mitsuda, K.~Nakaji, Y.~Suzuki, T.~Tanaka, R.~Raymond, H.~Tezuka, T.~Onodera, and N.~Yamamoto, ``Approximate complex amplitude encoding algorithm and its application to data classification problems,'' Feb. 2023.
+\newblock arXiv:2211.13039 [quant-ph].
+
+\bibitem{kartsaklis_lambeq_2021}
+D.~Kartsaklis, I.~Fan, R.~Yeung, A.~Pearson, R.~Lorenz, A.~Toumi, G.~de~Felice, K.~Meichanetzidis, S.~Clark, and B.~Coecke, ``lambeq: {An} {Efficient} {High}-{Level} {Python} {Library} for {Quantum} {NLP},'' Oct. 2021.
+\newblock arXiv:2110.04236 [quant-ph].
+
+\bibitem{harrow_quantum_2017}
+A.~W. Harrow and A.~Montanaro, ``Quantum computational supremacy,'' {\em Nature}, vol.~549, pp.~203--209, Sept. 2017.
+
+\bibitem{kliesch_dissipative_2011}
+M.~Kliesch, T.~Barthel, C.~Gogolin, M.~Kastoryano, and J.~Eisert, ``Dissipative {Quantum} {Church} {Turing} {Theorem},'' {\em Physical Review Letters}, vol.~107, p.~120501, Sept. 2011.
+
+\bibitem{arute_quantum_2019}
+F.~Arute, K.~Arya, R.~Babbush, D.~Bacon, J.~C. Bardin, R.~Barends, R.~Biswas, S.~Boixo, F.~G. S.~L. Brandao, D.~A. Buell, B.~Burkett, Y.~Chen, Z.~Chen, B.~Chiaro, R.~Collins, W.~Courtney, A.~Dunsworth, E.~Farhi, B.~Foxen, A.~Fowler, C.~Gidney, M.~Giustina, R.~Graff, K.~Guerin, S.~Habegger, M.~P. Harrigan, M.~J. Hartmann, A.~Ho, M.~Hoffmann, T.~Huang, T.~S. Humble, S.~V. Isakov, E.~Jeffrey, Z.~Jiang, D.~Kafri, K.~Kechedzhi, J.~Kelly, P.~V. Klimov, S.~Knysh, A.~Korotkov, F.~Kostritsa, D.~Landhuis, M.~Lindmark, E.~Lucero, D.~Lyakh, S.~Mandrà, J.~R. McClean, M.~McEwen, A.~Megrant, X.~Mi, K.~Michielsen, M.~Mohseni, J.~Mutus, O.~Naaman, M.~Neeley, C.~Neill, M.~Y. Niu, E.~Ostby, A.~Petukhov, J.~C. Platt, C.~Quintana, E.~G. Rieffel, P.~Roushan, N.~C. Rubin, D.~Sank, K.~J. Satzinger, V.~Smelyanskiy, K.~J. Sung, M.~D. Trevithick, A.~Vainsencher, B.~Villalonga, T.~White, Z.~J. Yao, P.~Yeh, A.~Zalcman, H.~Neven, and J.~M. Martinis, ``Quantum supremacy using a programmable superconducting processor,'' {\em Nature},
+  vol.~574, pp.~505--510, Oct. 2019.
+
+\bibitem{hibat-allah_framework_2024}
+M.~Hibat-Allah, M.~Mauri, J.~Carrasquilla, and A.~Perdomo-Ortiz, ``A framework for demonstrating practical quantum advantage: comparing quantum against classical generative models,'' {\em Communications Physics}, vol.~7, p.~68, Feb. 2024.
+
+\bibitem{riste_demonstration_2017}
+D.~Rist{\'e}, M.~P. Da~Silva, C.~A. Ryan, A.~W. Cross, A.~D. C{\'o}rcoles, J.~A. Smolin, J.~M. Gambetta, J.~M. Chow, and B.~R. Johnson, ``Demonstration of quantum advantage in machine learning,'' {\em npj Quantum Information}, vol.~3, p.~16, Apr. 2017.
+
+\bibitem{perelshtein_practical_2022}
+M.~Perelshtein, A.~Sagingalieva, K.~Pinto, V.~Shete, A.~Pakhomchik, A.~Melnikov, F.~Neukart, G.~Gesek, A.~Melnikov, and V.~Vinokur, ``Practical application-specific advantage through hybrid quantum computing,'' May 2022.
+\newblock arXiv:2205.04858 [quant-ph].
+
+\bibitem{yamasaki_advantage_2023}
+H.~Yamasaki, N.~Isogai, and M.~Murao, ``Advantage of {Quantum} {Machine} {Learning} from {General} {Computational} {Advantages},'' Dec. 2023.
+\newblock arXiv:2312.03057 [quant-ph, stat].
+
+\bibitem{daley_practical_2022}
+A.~J. Daley, I.~Bloch, C.~Kokail, S.~Flannigan, N.~Pearson, M.~Troyer, and P.~Zoller, ``Practical quantum advantage in quantum simulation,'' {\em Nature}, vol.~607, pp.~667--676, July 2022.
+
+\bibitem{dastin_insight_2018}
+J.~Dastin, ``Insight - {Amazon} scraps secret {AI} recruiting tool that showed bias against women,'' {\em Reuters}, Oct. 2018.
+
+\bibitem{bender_dangers_2021}
+E.~M. Bender, T.~Gebru, A.~McMillan-Major, and S.~Shmitchell, ``On the {Dangers} of {Stochastic} {Parrots}: {Can} {Language} {Models} {Be} {Too} {Big}?,'' in {\em Proceedings of the 2021 {ACM} {Conference} on {Fairness}, {Accountability}, and {Transparency}}, {FAccT} '21, (New York, NY, USA), pp.~610--623, Association for Computing Machinery, Mar. 2021.
+
+\bibitem{haim_whats_2024}
+A.~Haim, A.~Salinas, and J.~Nyarko, ``What's in a {Name}? {Auditing} {Large} {Language} {Models} for {Race} and {Gender} {Bias},'' Feb. 2024.
+\newblock arXiv:2402.14875 [cs].
+
+\bibitem{lalor_benchmarking_2022}
+J.~Lalor, Y.~Yang, K.~Smith, N.~Forsgren, and A.~Abbasi, ``Benchmarking {Intersectional} {Biases} in {NLP},'' in {\em Proceedings of the 2022 {Conference} of the {North} {American} {Chapter} of the {Association} for {Computational} {Linguistics}: {Human} {Language} {Technologies}}, (Seattle, United States), pp.~3598--3609, Association for Computational Linguistics, 2022.
+
+\bibitem{hutchinson_social_2020}
+B.~Hutchinson, V.~Prabhakaran, E.~Denton, K.~Webster, Y.~Zhong, and S.~Denuyl, ``Social {Biases} in {NLP} {Models} as {Barriers} for {Persons} with {Disabilities},'' May 2020.
+\newblock arXiv:2005.00813 [cs].
+
+\bibitem{garrido-munoz_survey_2021}
+I.~Garrido-Mu\~{n}oz, A.~Montejo-R{\'a}ez, F.~Mart{\'i}nez-Santiago, and L.~A. Ure\~{n}a L{\'o}pez, ``A {Survey} on {Bias} in {Deep} {NLP},'' {\em Applied Sciences}, vol.~11, p.~3184, Apr. 2021.
+
+\bibitem{sun_mitigating_2019}
+T.~Sun, A.~Gaut, S.~Tang, Y.~Huang, M.~ElSherief, J.~Zhao, D.~Mirza, E.~Belding, K.-W. Chang, and W.~Y. Wang, ``Mitigating {Gender} {Bias} in {Natural} {Language} {Processing}: {Literature} {Review},'' June 2019.
+\newblock arXiv:1906.08976 [cs].
+
+\bibitem{hovy_five_2021}
+D.~Hovy and S.~Prabhumoye, ``Five sources of bias in natural language processing,'' {\em Language and Linguistics Compass}, vol.~15, p.~e12432, Aug. 2021.
+
+\bibitem{zhu_aligning_2015}
+Y.~Zhu, R.~Kiros, R.~Zemel, R.~Salakhutdinov, R.~Urtasun, A.~Torralba, and S.~Fidler, ``Aligning {Books} and {Movies}: {Towards} {Story}-like {Visual} {Explanations} by {Watching} {Movies} and {Reading} {Books},'' June 2015.
+\newblock arXiv:1506.06724 [cs].
+
+\bibitem{garimella_womens_2019}
+A.~Garimella, C.~Banea, D.~Hovy, and R.~Mihalcea, ``Women''s {Syntactic} {Resilience} and {Men}s {Grammatical} {Luck}: {Gender}-{Bias} in {Part}-of-{Speech} {Tagging} and {Dependency} {Parsing},'' in {\em Proceedings of the 57th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}}, (Florence, Italy), pp.~3493--3498, Association for Computational Linguistics, 2019.
+
+\bibitem{hovy_demographic_2015}
+D.~Hovy, ``Demographic {Factors} {Improve} {Classification} {Performance},'' in {\em Proceedings of the 53rd {Annual} {Meeting} of the {Association} for {Computational} {Linguistics} and the 7th {International} {Joint} {Conference} on {Natural} {Language} {Processing} ({Volume} 1: {Long} {Papers})}, (Beijing, China), pp.~752--762, Association for Computational Linguistics, 2015.
+
+\bibitem{webster_mind_2018}
+K.~Webster, M.~Recasens, V.~Axelrod, and J.~Baldridge, ``Mind the {GAP}: {A} {Balanced} {Corpus} of {Gendered} {Ambiguous} {Pronouns},'' {\em Transactions of the Association for Computational Linguistics}, vol.~6, pp.~605--617, Dec. 2018.
+
+\bibitem{zhao_gender_2018}
+J.~Zhao, T.~Wang, M.~Yatskar, V.~Ordonez, and K.-W. Chang, ``Gender {Bias} in {Coreference} {Resolution}: {Evaluation} and {Debiasing} {Methods},'' Apr. 2018.
+\newblock arXiv:1804.06876 [cs].
+
+\bibitem{sap_risk_2019}
+M.~Sap, D.~Card, S.~Gabriel, Y.~Choi, and N.~A. Smith, ``The {Risk} of {Racial} {Bias} in {Hate} {Speech} {Detection},'' in {\em Proceedings of the 57th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}}, (Florence, Italy), pp.~1668--1678, Association for Computational Linguistics, 2019.
+
+\bibitem{hovy_learning_2013}
+D.~Hovy, T.~Berg-Kirkpatrick, A.~Vaswani, and E.~Hovy, ``Learning {Whom} to {Trust} with {MACE},'' in {\em Proceedings of the 2013 {Conference} of the {North} {American} {Chapter} of the {Association} for {Computational} {Linguistics}: {Human} {Language} {Technologies}} (L.~Vanderwende, H.~Daum{\'e}~III, and K.~Kirchhoff, eds.), (Atlanta, Georgia), pp.~1120--1130, Association for Computational Linguistics, June 2013.
+
+\bibitem{fornaciari_beyond_2021}
+T.~Fornaciari, A.~Uma, S.~Paun, B.~Plank, D.~Hovy, and M.~Poesio, ``Beyond {Black} \& {White}: {Leveraging} {Annotator} {Disagreement} via {Soft}-{Label} {Multi}-{Task} {Learning},'' in {\em Proceedings of the 2021 {Conference} of the {North} {American} {Chapter} of the {Association} for {Computational} {Linguistics}: {Human} {Language} {Technologies}}, (Online), pp.~2591--2597, Association for Computational Linguistics, 2021.
+
+\bibitem{bolukbasi_man_2016}
+T.~Bolukbasi, K.-W. Chang, J.~Zou, V.~Saligrama, and A.~Kalai, ``Man is to computer programmer as woman is to homemaker? debiasing word embeddings,'' in {\em Proceedings of the 30th {International} {Conference} on {Neural} {Information} {Processing} {Systems}}, {NIPS}'16, (Red Hook, NY, USA), pp.~4356--4364, Curran Associates Inc., Dec. 2016.
+
+\bibitem{ribeiro_beyond_2020}
+M.~T. Ribeiro, T.~Wu, C.~Guestrin, and S.~Singh, ``Beyond {Accuracy}: {Behavioral} {Testing} of {NLP} models with {CheckList},'' May 2020.
+\newblock arXiv:2005.04118 [cs].
+
+\bibitem{li_efficient_2023}
+W.~Li, J.~Ren, S.~Huai, T.~Cai, Z.~Shuai, and S.~Zhang, ``Efficient quantum simulation of electron-phonon systems by variational basis state encoder,'' {\em Physical Review Research}, vol.~5, p.~023046, Apr. 2023.
+
+\bibitem{ovalle-magallanes_quantum_2023}
+E.~Ovalle-Magallanes, D.~E. Alvarado-Carrillo, J.~G. Avina-Cervantes, I.~Cruz-Aceves, and J.~Ruiz-Pinales, ``Quantum angle encoding with learnable rotation applied to quantum classical convolutional neural networks,'' {\em Applied Soft Computing}, vol.~141, p.~110307, July 2023.
+
+\bibitem{larose_robust_2020}
+R.~LaRose and B.~Coyle, ``Robust data encodings for quantum classifiers,'' {\em Physical Review A}, vol.~102, p.~032420, Sept. 2020.
+
+\end{thebibliography}

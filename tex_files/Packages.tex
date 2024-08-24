@@ -1,5 +1,4 @@
 \usepackage[T1]{fontenc}
-\usepackage[latin1]{inputenc}
 \usepackage[english]{babel}
 \usepackage{siunitx}
 \usepackage{graphicx}
@@ -17,7 +16,7 @@
 
 \usepackage{datatool}% Sorted list http://ctan.org/pkg/datatool
 
-\usepackage{xcolor} % highlight text 
+\usepackage[table,xcdraw]{xcolor} % highlight text 
 
 \usepackage[nottoc]{tocbibind} % Adds bibliography to TOC
 %Also adds roman numeral pages to TOC
@@ -25,6 +24,7 @@
 \usepackage{glossaries}
 
 \usepackage{pstricks}
+\let\clipbox\relax
 \usepackage{theorem}
 \usepackage{changepage}
 \usepackage{euscript}
@@ -33,6 +33,7 @@
 \usepackage{parskip}
 \usepackage{placeins}
 %\usepackage{subfigure}
+\usepackage{subfig}
 \usepackage{subcaption}
 \usepackage{array}
 \usepackage{delarray}
@@ -348,9 +349,4 @@ intersections
 \usepackage[utf8]{inputenc}
 %\usepackage[T1]{fontenc}
 %\usepackage[T5,T1]{fontenc}
-
 %\newcommand{\viet}[1]{{\fontencoding{T5}\selectfont#1}}
-
-\usepackage{graphicx}
-\usepackage{subfig}
-\usepackage[table,xcdraw]{xcolor}
